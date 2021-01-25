@@ -6,4 +6,16 @@
 .rounded-circle{
     border-radius: 50%;
 }
-
+.img-home{
+    
+    margin-left:200px;
+}
+.none{
+    list-style-type: none;
+}
+.login-bottom{
+    margin-bottom: 200px;
+}
+li{
+    list-style-type: none;   
+}

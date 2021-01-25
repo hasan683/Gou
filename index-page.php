@@ -48,7 +48,7 @@
   </section>
 
   <div class="position-relative">
-    <img width=1900 src="img/log.jpg">
+    <img width=1900 src="img/Group243.png">
     <div class="position-absolute bottom-50 end-50">
       <p class="display-2 text-white">Learn Something New</p>
       <p class="display-3 text-warning">Everyday Anywhere Anytime</p>
@@ -193,7 +193,9 @@
         </div>
         <p class="card-title text-center mt-2">it has survived not only five centuries.but also the leap into electronic
           tyepsetting.remaining essentially unchanged.it was popularised in the 1960s with the race</p>
-        <img class="rounded-circle text-center" src="img/profile.png">
+          <div class="img-home">
+          <img class="img-fluid " src="img/profile.png" alt="testimonial">
+          </div>
         <h5 class="text-center">Dr Abdullah</h5>
         <p class="text-center">MBBS,BCS</p>
       </div>
@@ -207,13 +209,39 @@
         </div>
         <p class="card-title text-center mt-2">it has survived not only five centuries.but also the leap into electronic
           tyepsetting.remaining essentially unchanged.it was popularised in the 1960s with the race</p>
-        <img class="rounded-circle text-center" src="img/profile.png">
+          <div class="img-home">
+          <img class="img-fluid " src="img/profile.png" alt="testimonial">
+          </div>
         <h5 class="text-center">Dr Abdullah</h5>
         <p class="text-center">MBBS,BCS</p>
       </div>
     </div>
   </div>
 </div>
+<footer id="footer" class="mt-5">
+    <div class="py-4 bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-left ml-5">
+                <img src="img/logo.png">              
+                    <span class="text-info ml-3">
+                       GENESIS ONLINE UNIVARSITY
+                    </span>
+                    </div>
+                <div class="col-sm-4 mt-4">
+                    <p class="text-white">Copyright
+                        &copy; 2021 GOU
+                      
+                    </p>
+                </div>
+                <div class="col-sm-4 mt-4">
+                    <p class="text-white">Developed by:Medigene IT
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
