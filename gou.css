@@ -3,19 +3,67 @@
     padding-top: 40px;
     border-radius: 5px;
 }
+
 .rounded-circle{
     border-radius: 50%;
 }
-.img-home{
-    
-    margin-left:200px;
+
+.img-home{  
+  margin-left:200px;
 }
+
 .none{
     list-style-type: none;
 }
+
 .login-bottom{
     margin-bottom: 200px;
 }
+
 li{
     list-style-type: none;   
+}
+
+.sidebar .nav-item{
+    font-size:23px;
+  
+}
+
+.sidebar .nav-item.active {
+    background-color: #FFB013;
+    border-radius: 4px;
+}
+
+.sidebar .nav-item.active a{
+    color: #fff;
+    
+}
+
+.sidebar .nav-item.my-profile  :hover{
+color:#FFB013;
+}
+
+.card.enrolled-card{
+background-color:#FFF1C8;
+font-size: 29px;
+}
+.enrolled-card .card-title{
+    font-size: 35px;
+}
+
+.card.completed-card{
+    background-color:#2B3E90;
+    font-size: 29px;
+}
+.completed-card .card-title{
+    font-size: 35px;
+}
+
+.card.certificates-card{
+    background-color: #686868; 
+    font-size: 29px;
+}
+
+.certificates-card .card-title{
+    font-size: 35px;
 }
