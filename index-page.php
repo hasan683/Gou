@@ -61,13 +61,13 @@
       <div class="container">
         <div class="card card-body bg-white">
           <div class="row">
-            <div class="col-4">
+            <div class="col-sm-4">
 
               <div class="row">
-                <div class="col-2">
+                <div class="col-sm-2">
                   <img class="p-3" src="img/Group 1.png">
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9">
                   <h4>Online Course</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
                 </div>
@@ -75,26 +75,26 @@
             </div>
 
 
-            <div class="col-4">
+            <div class="col-sm-4">
 
               <div class="row">
-                <div class="col-2">
+                <div class="col-sm-2">
                   <img class="p-3" src="img/Group 1.png">
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9">
                   <h4>Online Course</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-sm-4">
 
               <div class="row">
-                <div class="col-2">
+                <div class="col-sm-2">
                   <img class="p-3" src="img/Group 1.png">
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9">
                   <h4>Online Course</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
                 </div>
@@ -110,63 +110,63 @@
   <div class="container">
     <div class="row">
       <h2 class="text-primary mt-5">Popular Courses</h2>
-      <div class="col-4">
-        <div class="card" style="width: 26rem;">
+      <div class="col-sm-4">
+        <div class="card">
           <img class="card-img-top" src="img/blank.jpg" alt="Card image cap">
           <div class="card-body">
             <div class="row">
-              <div class="col-6">
+              <div class="col-sm-6">
                 <p class="mt-2">Bio-statistics</p>
               </div>
-              <div class="col-6"><button type="button" class="btn btn-primary">250 taka</button></div>
+              <div class="col-sm-6"><button type="button" class="btn btn-primary">250 taka</button></div>
             </div>
             <p class="card-text text-primary">How To Become Great Graphic Designer in 7 Days</p>
             <div class="row">
-              <div class="col-6">
+              <div class="col-sm-6">
                 <p class="text-warning fs-3">*****</p>
               </div>
-              <div class="col-6 text-primary">2,526,471 Views</div>
+              <div class="col-sm-6 text-primary">2,526,471 Views</div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-4">
-        <div class="card" style="width: 26rem;">
+      <div class="col-sm-4">
+        <div class="card">
           <img class="card-img-top" src="img/blank.jpg" alt="Card image cap">
           <div class="card-body">
             <div class="row">
-              <div class="col-6">
+              <div class="col-sm-6">
                 <p class="mt-2">Bio-statistics</p>
               </div>
-              <div class="col-6"><button type="button" class="btn btn-primary">250 taka</button></div>
+              <div class="col-sm-6"><button type="button" class="btn btn-primary">250 taka</button></div>
             </div>
             <p class="card-text text-primary">How To Become Great Graphic Designer in 7 Days</p>
             <div class="row">
-              <div class="col-6">
+              <div class="col-sm-6">
                 <p class="text-warning fs-3">*****</p>
               </div>
-              <div class="col-6 text-primary">2,526,471 Views</div>
+              <div class="col-sm-6 text-primary">2,526,471 Views</div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card" style="width: 26rem;">
+      <div class="col-sm-4">
+        <div class="card">
           <img class="card-img-top" src="img/blank.jpg" alt="Card image cap">
           <div class="card-body">
             <div class="row">
-              <div class="col-6">
+              <div class="col-sm-6">
                 <p class="mt-2">Bio-statistics</p>
               </div>
-              <div class="col-6"><button type="button" class="btn btn-primary">250 taka</button></div>
+              <div class="col-sm-6"><button type="button" class="btn btn-primary">250 taka</button></div>
             </div>
             <p class="card-text text-primary">How To Become Great Graphic Designer in 7 Days</p>
             <div class="row">
-              <div class="col-6">
+              <div class="col-sm-6">
                 <p class="text-warning fs-3">*****</p>
               </div>
-              <div class="col-6 text-primary">2,526,471 Views</div>
+              <div class="col-sm-6 text-primary">2,526,471 Views</div>
             </div>
           </div>
         </div>
@@ -175,17 +175,18 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-sm-6">
         <p class="mt-5 text-primary">Enroll Student's</span> <span class="font-weight-bold">feedback</p>
       </div>
-      <div class="col-6 view-more-btn">
+      <div class="col-sm-6 view-more-btn">
         <button type="button" class="btn btn-primary bg-white text-primary">View More</button>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-    <div class="card pr-4" style="width: 37rem; margin-left:17px;">
+    <div class="col-sm-6">
+    <div class="card pr-4">
       <div class="card-body">
         <div class="text-center">
           <img src="img/group 3.png">
@@ -200,8 +201,9 @@
         <p class="text-center">MBBS,BCS</p>
       </div>
     </div>
-
-    <div class="card" style="width: 37rem; margin-left: 106px;">
+    </div>
+    <div class="col-sm-6">
+    <div class="card">
       <div class="card-body ml-4">
         <div class="text-center">
           <img src="img/group 3.png">
@@ -217,6 +219,7 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 <footer id="footer" class="mt-5">
     <div class="py-4 bg-secondary">

@@ -25,7 +25,8 @@ li{
 }
 
 .sidebar .nav-item{
-    font-size:23px;
+    font-size:22px;
+    color:#2B3E90;
   
 }
 
@@ -67,3 +68,36 @@ font-size: 29px;
 .certificates-card .card-title{
     font-size: 35px;
 }
+.myleftctn{
+    position: relative;
+    background-color: #FFB013;
+    border-radius: 15px;
+    height:140%;
+    padding: 25px;
+    padding-left: 10px;
+}
+.myleftctn header{
+    color: aqua;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.myleftctn .myinput{
+    width:230px;
+    margin-top: 5px;
+    padding:10px;
+    padding-left: 50px;
+    border:none
+}
+
+.table-content .title{
+   color:#2B3E90;
+   width: 125px;
+}
+
+.table-content .text{
+    color:#2B3E90;
+ }
+ .table-content .basic-information .text{
+     font-weight: 600;
+ }

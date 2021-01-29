@@ -50,61 +50,72 @@
 
     <section class="pt-4">
         <div class="container">
-
             <div class="row justify-content-center">
-
                 <div class="col-lg-5 col-md-5 col-md-12">
-                   
 
-                       
-                            <div class="bg-info px-4">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12 text-center fw-bolder">           
-                                        <span class="fs-1 p-2 text-primary font-weight" style="text-decoration:underline;">Login</span> <span class="fs-1 text-muted"style="text-decoration:underline;" >Register</span>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <form action="index-page.php">
 
-                                    <div class="form-group">
-
-                                        <input type="text" class="form-control my-4" name="username"
-                                            placeholder="Email or Name" value="" required />
-                                    </div>
-
-                                    <div class="form-group">
-
-                                        <input type="password" class="form-control" placeholder="Password"
-                                            name="password" required />
-                                    </div>
-
-                                    <div class="social-login mb-3">
-                                        <ul class="none">
-                                            <li class="text-end">Forgot Password?</li>
-                                            <li>
-                                                <input id="reg" class="checkbox-custom" type="checkbox" name="remember"
-                                                    value="1" checked>
-                                                <label for="reg" class="checkbox-custom-label ">Remember me</label>
-                                            </li>
-
-                                        </ul>
-                                       
-                                    </div>
-                                </form>
-                                <div class="text-center">
-                                        <button type="button" class="btn btn-primary px-5">Login</button>      
-                                        <p class="fs-5 mt-2">Don't have an account?</p>
-                                        <button type="button" class="btn login-bottom btn-outline-warning">Resigter Now</button>
+                    <div class="bg-info px-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center fw-bolder">
+                                    <span class="fs-1 p-2 text-primary font-weight"
+                                        style="text-decoration:underline;">Login</span> <span class="fs-1 text-muted"
+                                        style="text-decoration:underline;">Register</span>
                                 </div>
                             </div>
-                        
-                          
+                        </div>
+                        <div class="form-group">
+                                <label for="email">Email or phone</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <img src="img/icon-email.png" alt="icon_email"/>
+                                        </span>
+                                    </div>
+                                    <input id="j_username" name="j_username" class="form-control" data-validation-type="not-blank" placeholder="Email or phone" validation="required" required="required" type="text" value=""/>
+                                </div>
+                            </div>
 
-                
+                        <form action="index-page.php">
 
-            </div>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control my-4" name="username" placeholder="Email or Name"
+                                    value="" required />
+                            </div>
+
+                            <div class="form-group">
+
+                                <input type="password" class="form-control" placeholder="Password" name="password"
+                                    required />
+                            </div>
+
+                            <div class="social-login mb-3">
+                                <ul class="none">
+                                    <li class="text-end">Forgot Password?</li>
+                                    <li>
+                                        <input id="reg" class="checkbox-custom" type="checkbox" name="remember"
+                                            value="1" checked>
+                                        <label for="reg" class="checkbox-custom-label ">Remember me</label>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </form>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary px-5">Login</button>
+                            <p class="fs-5 mt-2">Don't have an account?</p>
+                            <button type="button" class="btn login-bottom btn-outline-warning">Resigter Now</button>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
     </section>
 
 
