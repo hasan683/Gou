@@ -11,35 +11,9 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 
 </head>
-<body>
-<table class="table">
-  <thead>
-    <tr>
-      
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-     
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-     
-      <td>Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+<div class="overflow-auto">..rghnhjgjyt.</div>
+<div class="overflow-hidden">..ytttttttttttttttttttttu.</div>
+<div class="overflow-visible">..uytttttu.</div>
+<div class="overflow-scroll">.uyyyyyyyyyt..</div>
 </body>
 </html>

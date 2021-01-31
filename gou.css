@@ -101,3 +101,49 @@ font-size: 29px;
  .table-content .basic-information .text{
      font-weight: 600;
  }
+
+
+ 
+ 
+
+
+
+ .register-section .card-back{
+     background-color:aqua ;
+     border-radius: 5px;
+ }
+.register-section .header{
+    margin-top:15px;
+    font-size:36px;
+    font-weight:bold;
+    text-align: center;
+    color:#B3B3B3; 
+}
+.main-content div{
+    position: relative;
+}
+
+.main-content i{
+    position:absolute;
+    left:8px;
+    font-size: 16px;
+    top:12px;
+}
+.main-content .icon-eye{
+    position:absolute;
+    right:40px;
+    font-size: 16px;
+    top:2px;
+  
+}
+.main-content .form-control{
+    padding-left: 35px;
+}
+.main-content .terms-line{
+    font-size: 18px;
+}
+.card .table-head{
+    background-color: #2B3E90; 
+    border-radius: 5px;
+    color:white;
+}

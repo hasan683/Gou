@@ -9,8 +9,12 @@
     <link rel="stylesheet" type="text/css" href="gou.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
 </head>
+
 <body>
+
+
     <section>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
@@ -44,43 +48,50 @@
         </nav>
     </section>
 
-<div class="container">
-<div class="bg-info p-5 mt-4">
-<h3 class=" text-primary">About Us</h3>
-<p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
-typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-</div>
-</div>
+    <section class="register-section pt-4">
+        <div class="row  justify-content-center">
+            <div class="col-lg-3 col-md-5 col-md-12 card-back">
+                <p class="header"><u>Login</u><span class="text-primary ms-3"><u>Register</u></span></p>
+                <div class="main-content px-4">
+                    <form>
+                        <div class="mb-3">
+                            <i class="fas fa-home"></i>
+                            <input type="text" class="form-control" placeholder="Full Name">
+                        </div>
+                        <div class="mb-3">
+                        <i class="fas fa-home"></i>
+                            <input type="text" class="form-control" placeholder="BMDC No" id="exampleInputBMDCNo1">
+                        </div>
+                        <div class="mb-3">
+                        <i class="fas fa-mobile-alt"></i>
+                            <input type="number" class="form-control" placeholder="Phone" id="exampleInputnumber1">
+                        </div>
+                        <div class="mb-3">
+                        <i class="fal fa-envelope"></i>
+                            <input type="email" class="form-control" placeholder="Email" id="exampleInputemail1">
+                        </div>
+                        <div class="mb-3">
+                        <i class="fas fa-lock"></i>
+                            <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
+                            <span class="icon-eye"><i class="far fa-eye"></i></span>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1"><span class="ms-1">I agree to the<span class="text-warning fw-light"> terms of use</span> and<span class="text-warning fw-light"> Privacy Policy</span></label>
+                        </div>
+                        <div class="text-center">
+                        <button type="submit" class="btn btn-primary px-4">Register</button>
+                        <p class="fst-italic mt-3">Don't have an account</p>
+                        <button type="button" class="btn btn-outline-warning mb-5 px-4">Login Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer id="footer" class="mt-auto">
+    <footer id="footer" class="mt-5">
         <div class="py-4 bg-secondary">
             <div class="container">
                 <div class="row">
