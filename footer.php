@@ -1,29 +1,27 @@
-<footer id="footer" class="mt-auto">
-    <div class="py-4 bg-secondary">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 text-left ml-5">
-                <img src="img/logo.png">
-                
-                
-                    <span class="text-info ml-3">
-                       GENESIS ONLINE UNIVARSITY
-                    </span>
+<footer class="footer" class="mt-auto">
+        <div class="footer-content py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 university-title text-left">
+                        <img src="img/logo.png">
+                        <span class="text-center">
+                            GENESIS ONLINE UNIVARSITY
+                        </span>
                     </div>
-                <div class="col-sm-4 mt-4">
-                    <p class="text-white">Copyright
-                        &copy; 2021 GOU
-                      
-                    </p>
-                </div>
-                <div class="col-sm-4 mt-4">
-                    <p class="text-white">Developed by:Medigene IT
-                    </p>
+                    <div class="col-sm-3 copyright-content">
+                        <p class="text-muted">Copyright
+                            &copy; 2021 <a class="text-muted" href="index-page.php">GOU</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-3 developed-content">
+                        <p class="text-muted">Developed by:<a class="text-muted" href="http://www.medigeneit.com/">Medigene IT</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
 
 
 
