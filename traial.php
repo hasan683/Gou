@@ -11,9 +11,27 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 
 </head>
-<div class="overflow-auto">..rghnhjgjyt.</div>
-<div class="overflow-hidden">..ytttttttttttttttttttttu.</div>
-<div class="overflow-visible">..uytttttu.</div>
-<div class="overflow-scroll">.uyyyyyyyyyt..</div>
+
+<body>
+  <div class="row">
+    <div class="col-sm-4"><ul>
+      <li>yhgjyhg</li>
+      <li>yhgjyhg</li>
+      <li>yhgjyhg</li>
+    </ul>
+  </div>
+    <div class="col-sm-4"><ul>
+      <li>yhgjyhg</li>
+      <li>yhgjyhg</li>
+      <li>yhgjyhg</li>
+    </ul>
+  </div>
+  <div class="col-sm-4"><ul>
+      <li>yhgjyhg</li>
+      <li>yhgjyhg</li>
+      <li>yhgjyhg</li>
+    </ul></div>
+  </div>
 </body>
+
 </html>
