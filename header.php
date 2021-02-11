@@ -25,7 +25,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mx-5 mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index-page.php">Home</a>
                         </li>
@@ -39,10 +39,12 @@
                             <a class="nav-link" href="about-page.php">About</a>
                         </li>
                     </ul>
+                    <div class="justify-content-end">
                     <i class="fad fa-phone-plus text-info pr-2"></i>
                     <span class="text-info">Hot-Line:01404432536</span>
                     <a href="profile.php" button type="button" class="btn btn-success m-2">Profile</a>
                     <a href="login.php" button type="button" class="btn btn-outline-warning">Sign Out</a>
+                    </div>
                 </div>
             </div>
         </nav>
