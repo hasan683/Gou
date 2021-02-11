@@ -8,8 +8,7 @@
       cats and dog tuterial series</p>
     <button type="button" class="btn btn-warning">Free Join Now</button>
   </div>
-
-  <div style="margin-top: -70px;">
+   <div style="margin-top: -70px;">
     <div class="container">
       <div class="card card-body bg-white">
         <div class="row">
@@ -25,10 +24,7 @@
               </div>
             </div>
           </div>
-
-
           <div class="col-sm-4">
-
             <div class="row">
               <div class="col-sm-2">
                 <img class="p-3" src="img/Group 1.png">
@@ -39,9 +35,7 @@
               </div>
             </div>
           </div>
-
           <div class="col-sm-4">
-
             <div class="row">
               <div class="col-sm-2">
                 <img class="p-3" src="img/Group 1.png">
@@ -54,10 +48,8 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
-
 </div>
 <section class="popular-courses-section">
   <div class="container">
@@ -128,14 +120,12 @@
     </div>
   </div>
 </section>
-
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
       <p class="text-primary fs-3">Enroll Student <span class="fw-bolder">feedback</span></p>
     </div>
     <div class="col-sm-6 text-end">
-
       <button type="button" class="btn btn-outline-secondary btn-lg px-5">View More</button>
     </div>
   </div>
