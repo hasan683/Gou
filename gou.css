@@ -19,6 +19,47 @@
 li{
     list-style-type: none;   
 }
+
+
+.header .collapse{
+    padding-left:74px;
+    font-size: 18px;
+}
+.header .nav-item{
+    padding-left: 45px;
+}
+.header .navbar-right{
+    padding-left: 142px;
+    font-size: 19px;   
+}
+.header .navbar-right{
+    color:#2B3E90;
+}
+
+
+.header .navbar-right .profile-btn{
+background-color:#2B3E90 ;
+color:white;
+padding: 10px;
+padding-right: 10px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-left: 43px;
+font-size: 23px;
+}
+.header .navbar-right .sign-out-btn{
+outline:1px solid #FFB013;
+color:#FFB013;
+border-radius:5px;
+padding-left: 8px;
+padding-top: 1px;
+padding-bottom: 2px;
+margin-left: 27px;
+font-size: 20px;
+}
+
+
+
 .sidebar .nav-item{
     font-size:22px;
     color:#2B3E90;

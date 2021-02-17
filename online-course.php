@@ -3,7 +3,7 @@
     <div class="container mt-3">
         <div class="row">
             <div class="col-sm-4">
-                <div class="card text-center">
+                <div class="shadow card text-center">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Online Coursre Name:1</h5>
                         <p class="card-text text-primary">Duration:3 Months</p>
@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card text-center">
+                <div class="shadow card text-center">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Online Coursre Name:2</h5>
                         <p class="card-text  text-primary">Duration:3 Months</p>
@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card text-center">
+                <div class="shadow card text-center">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Online Coursre Name:3</h5>
                         <p class="card-text text-primary">Duration:3 Months</p>
@@ -35,7 +35,7 @@
         </div>
         <div class="row">
             <div class="col-sm-4">
-                <div class="card text-center mt-4">
+                <div class="shadow card text-center mt-4">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Online Coursre Name:1</h5>
                         <p class="card-text text-primary">Duration:3 Months</p>
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card text-center mt-4">
+                <div class="shadow card text-center mt-4">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Online Coursre Name:2</h5>
                         <p class="card-text  text-primary">Duration:3 Months</p>
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card text-center mt-4 mb-5">
+                <div class="shadow card text-center mt-4 mb-5">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Online Coursre Name:3</h5>
                         <p class="card-text text-primary">Duration:3 Months</p>
