@@ -15,8 +15,8 @@
 <body>
 
 
-    <section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <section class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -25,7 +25,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-5 mb-2 mb-lg-0">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index-page.php">Home</a>
                         </li>
@@ -39,11 +39,11 @@
                             <a class="nav-link" href="about-page.php">About</a>
                         </li>
                     </ul>
-                    <div class="justify-content-end">
-                    <i class="fad fa-phone-plus text-info pr-2"></i>
-                    <span class="text-info">Hot-Line:01404432536</span>
-                    <a href="profile.php" button type="button" class="btn btn-success m-2">Profile</a>
-                    <a href="login.php" button type="button" class="btn btn-outline-warning">Sign Out</a>
+                    <div class="navbar-right">
+                    <i class="icon fad fa-phone-plus text-info pr-2"></i>
+                    <span class="text-info ms-3">Hot-Line:01404432536</span>
+                    <a href="profile.php" button type="button" class="btn profile-btn">Profile</a>
+                    <a href="login.php" button type="button" class="btn sign-out-btn">Sign Out</a>
                     </div>
                 </div>
             </div>

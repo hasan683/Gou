@@ -2,7 +2,7 @@
 <section class="about-section bg-light">
     <div class="container">
         <div class="row">
-            <div class="about-title">
+            <div class="shadow about-title">
                 <h3 class=" text-primary">About Us</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                     has
