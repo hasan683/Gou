@@ -1,9 +1,9 @@
 <?php include 'header.php';?>
-    <div class="sidebar bg-light">
+    <div class="sidebar">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="card  mt-4">
+                    <div class="card shadow mt-4">
                         <div class="card-body">
                             <div class="text-center mb-5">
                                 <img class="" src="img/mask.png">
@@ -20,31 +20,31 @@
                                 <li class="nav-item my-profile">
                                     <a class="nav-link" href="profile-1-page.php">
                                         <i class="fas fa-id-card"></i>
-                                        <span class="p-2">My Profile</span>
+                                        <span class="p-2">Profile</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="my-courses.php">
                                         <i class="fas fa-id-card"></i>
-                                        <span class="p-2">My Courses</span>
+                                        <span class="p-2">Courses</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="my-exams.php">
                                         <i class="fas fa-id-card"></i>
-                                        <span class="p-2">My Exams</span>
+                                        <span class="p-2">Exams</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="my-payments.php">
                                         <i class="fas fa-id-card"></i>
-                                        <span class="p-2">My Payments</span>
+                                        <span class="p-2">Payments</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="my-payments1.php">
                                         <i class="fas fa-id-card"></i>
-                                        <span class="p-2">My Certificates</span>
+                                        <span class="p-2">Certificates</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -61,7 +61,7 @@
                 <div class="col-sm-8 mt-4">
                     <div class="row">
                         <div class="col-12">
-                            <div class="card">
+                    
                                 <div class="card-body">
                                     <h5 class="card-title text-primary">Dashboard</h5>
                                     <div class="row">
@@ -97,7 +97,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

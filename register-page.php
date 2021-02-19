@@ -16,104 +16,113 @@
 <body>
 
 
-    <section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index-page.php">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="online-course.php">Courses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="online-exam.php">Exams</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about-page.php">About</a>
-                        </li>
-                    </ul>
-                    <i class="fad fa-phone-plus text-info pr-2"></i>
-                    <span class="text-info">Hot-Line:01404432536</span>
-                    <a href="profile.php" button type="button" class="btn btn-success m-2">Profile</a>
-                    <a href="login.php" button type="button" class="btn btn-primary">Sign Up</a>
-                </div>
-            </div>
-        </nav>
-    </section>
+<nav class="navbar navbar-expand-lg main-menu navbar-light shadow-sm">
+  <div class="container">
+  <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index-page.php">Home</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="online-course.php">Courses</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="online-exam.php">Exams</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="about-page.php">About</a>
+        </li>
+      </ul>
+      <div class="hot-line">
+    <i class="icon fad fa-phone-plus pe-3"></i>
+    <span class="number">Hot-Line:01404432536</span>
+    </div>
+      <form class="d-flex box-1">
+     
+      <a href="profile.php" button type="button" class="btn login-btn">Login</a>
+      <a href="login.php" button type="button" class="btn sign-up-btn">Sign Up</a>
+      </form>
+    </div>
+  </div>
+</nav>
 
-    <section class="register-section pt-4 bg-light">
-        <div class="row  justify-content-center">
-            <div class="col-lg-3 col-md-5 col-md-12 card-back">
-                <p class="header"><u>Login</u><span class="text-primary ms-3"><u>Register</u></span></p>
-                <div class="main-content  px-4">
+
+    <section class="register-section pt-4">
+        <div class="row mx-0 justify-content-center">
+            <div class="col-md-5 col-md-12 card-back shadow">
+                <p class="login-head"><u>Login</u><span class="register-head ms-3"><u>Register</u></span></p>
+                <div class="main-content">
                     <form>
-                        <div class="mb-3 text-muted">
+                        <div class="mb-3">
                             <i class="fas fa-home"></i>
-                            <input type="text" class="form-control" placeholder="Full Name">
+                            <input type="text" class="form-control all-access" placeholder="Full Name">
                         </div>
-                        <div class="mb-3 text-muted">
+                        <div class="mb-3">
                         <i class="fas fa-home"></i>
-                            <input type="text" class="form-control" placeholder="BMDC No" id="exampleInputBMDCNo1">
+                            <input type="text" class="form-control all-access" placeholder="BMDC No" id="exampleInputBMDCNo1">
                         </div>
-                        <div class="mb-3 text-muted">
+                        <div class="mb-3">
                         <i class="fas fa-mobile-alt"></i>
-                            <input type="number" class="form-control" placeholder="Phone" id="exampleInputnumber1">
+                            <input type="number" class="form-control all-access" placeholder="Phone" id="exampleInputnumber1">
                         </div>
-                        <div class="mb-3 text-muted">
+                        <div class="mb-3">
                         <i class="fal fa-envelope"></i>
-                            <input type="email" class="form-control" placeholder="Email" id="exampleInputemail1">
+                            <input type="email" class="form-control all-access" placeholder="Email" id="exampleInputemail1">
                         </div>
-                        <div class="mb-3 text-muted">
+                        <div class="mb-3">
                         <i class="fas fa-lock"></i>
-                            <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
+                            <input type="password" class="form-control all-access" placeholder="Password" id="exampleInputPassword1">
                             <span class="icon-eye"><i class="far fa-eye"></i></span>
                         </div>
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1"><span class="ms-1">I agree to the<span class="text-warning fw-light"> terms of use</span> and<span class="text-warning fw-light"> Privacy Policy</span></label>
+                            <label class="form-check-label" for="exampleCheck1"><span class="agree-access">I agree to the
+                                <strong class="text-warning fw-light"> Terms of Use</strong> and
+                                <strong class="text-warning fw-light"> Privacy Policy</strong></span>
+                            </label>
                         </div>
-                        <div class="text-center">
-                        <a href="about-page.php" button type="submit" class="btn btn-primary px-4">Register</a>
-                        <p class="fst-italic mt-3">Don't have an account</p>
-                        <a href="login.php" button type="button" class="btn btn-outline-warning mb-5 px-4">Login Now</a>
+                        <div class="text-center access-btn">
+                        <a href="about-page.php" button type="submit" class="btn reg-btn px-4">Register</a>
+                        <p class="fst-italic mt-4">Already have an account ?</p>
+                        <a href="login.php" button type="button" class="btn btn-outline-warning log-btn  mt-1">Login Now</a>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="footer" class="mt-auto">
-        <div class="footer-content py-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 university-title text-left">
-                        <img src="img/logo.png">
-                        <span class="text-center">
-                            GENESIS ONLINE UNIVARSITY
-                        </span>
-                    </div>
-                    <div class="col-sm-3 copyright-content">
-                        <p class="text-muted">Copyright
-                            &copy; 2021 <a class="text-muted" href="index-page.php">GOU</a>
-                        </p>
-                    </div>
-                    <div class="col-sm-3 developed-content">
-                        <p class="text-muted">Developed by:<a class="text-muted" href="http://www.medigeneit.com/">Medigene IT</a>
-                        </p>
+   
+<footer class="mt-5">
+    <div class="container top_footer pt-4">
+        <div class="row">
+            <div class="lower_footer">
+                <div class="container">
+                    <div class="row">
+                     <div class="col-lg-5 text-center">
+                            <img class="img-fluid" src="img/logo.png">
+                            <span class="number">Genesis Online University</span>
+                            </p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <p>Copyright
+                                &copy;2021
+                                <a class="" href="/">Gou</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <p>
+                                Developed By:
+                                <a class="link" target="_blank" href="//www.medigeneit.com">MedigeneIT.com</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-
+</footer>
 
 
 

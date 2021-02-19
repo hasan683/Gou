@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<section class="about-section bg-light">
+<section class="about-section">
     <div class="container">
         <div class="row">
             <div class="shadow about-title">
