@@ -21,43 +21,6 @@ li{
 }
 
 
-.header .collapse{
-    padding-left:74px;
-    font-size: 18px;
-}
-.header .nav-item{
-    padding-left: 45px;
-}
-.header .navbar-right{
-    padding-left: 142px;
-    font-size: 19px;   
-}
-.header .navbar-right{
-    color:#2B3E90;
-}
-
-
-.header .navbar-right .profile-btn{
-background-color:#2B3E90 ;
-color:white;
-padding: 10px;
-padding-right: 10px;
-padding-top: 2px;
-padding-bottom: 2px;
-margin-left: 43px;
-font-size: 23px;
-}
-.header .navbar-right .sign-out-btn{
-outline:1px solid #FFB013;
-color:#FFB013;
-border-radius:5px;
-padding-left: 8px;
-padding-top: 1px;
-padding-bottom: 2px;
-margin-left: 27px;
-font-size: 20px;
-}
-
 
 
 .sidebar .nav-item{
@@ -161,9 +124,9 @@ font-size: 29px;
 
 .main-content i{
     position:absolute;
-    left:8px;
-    font-size: 16px;
-    top:12px;
+    left:7px;
+    font-size: 25px;
+    top:8px;
 }
 .main-content .icon-eye{
     position:absolute;
@@ -198,12 +161,214 @@ font-size: 29px;
 
 .footer .copyright-content{
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 28px;
 }
 .footer .developed-content{
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 28px; 
     border: none; 
+}
+footer{
+background-color: #E5EDFF;
+}
+footer .lower_footer p {
+    color: #7D8597;
+    margin-top: 20px;
+}
+footer .lower_footer a{
+    color: #7D8597;
+}
+a{
+    text-decoration: none;
+}
+footer .lower_footer .img{
+    width:30px;
+    height:10px;
+}
+footer .lower_footer .number{
+font-size: 22px;
+padding-left: 42px;
+color: #2B3E90;
+}
+.main-menu{
+    background-color: #FFFFFF;
+}
+.main-menu .navbar-nav{
+    padding-left:70px;   
+}
+.main-menu .navbar-nav .nav-item .nav-link{
+    padding-left: 45px !important;
+    font-size: 18px;
+}
+.box-1 .profile-btn{
+    background-color:#2B3E90 ;
+color:white;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-left:43px ;
+font-size: 23px;
+}
+
+.box-1 .sign-out-btn{
+color:#FFB013;
+border-radius:5px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 0px;
+padding-bottom: 0px;
+margin-left: 27px;
+font-size: 20px;
+}
+.hot-line  .number{
+    color: #2B3E90;
+    font-size: 19px;
+    
+}
+.hot-line .icon{
+    color: #2B3E90;
+    font-size: 19px;
+}
+.card-menu{
+    border-radius: 5px;
+}
+.card-menu .card-body .card-title{
+    font-size: 25px;
+    color: #2B3E90;
+    font-weight: bold;
+}
+.card-menu .card-body .card-text{
+    color: #2B3E90;
+    font-size: 20px;
+}
+
+.box-1 .login-btn{
+    border:1px solid #1B0E92;
+    color:#2B3E90;
+
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 0px;
+padding-bottom: 0px;
+margin-left: 27px;
+font-size: 20px;
+}
+.box-1 .sign-up-btn{
+    background-color:#2B3E90 ;
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    margin-left:43px ;
+    font-size: 23px;
+}
+.login-section .card-back{
+width: 570px;
+}
+.login-section .access-btn{
+    padding-bottom:200px;
+}
+
+.login-section .card-back .login-head{
+    color: #2B3E90;
+    margin-top:15px;
+    font-size:36px;
+    font-weight:bold;
+    text-align: center;
+    padding-bottom: 52px;
+    padding-top: 38px;
+}
+
+.login-section .card-back .Register-header{
+  color:#B3B3B3;
+}
+
+.login-section .main-content .email{
+    height:42px;
+    font-size: 23px;
+    opacity:45%;
+} 
+.login-section .main-content .password{
+    height:42px;
+    font-size: 25px;
+    opacity:45%;
+}
+.login-section .main-content .text-end{
+    font-size: 19px;
+}
+.login-section .main-content .form-check{
+    font-size: 25px;
+}
+
+.main-content .access-btn .btn-login{
+background-color: #2B3E90;
+color:#fff;
+font-size:22px;
+padding-top:1px;
+padding-bottom:2px;
+}
+.main-content .access-btn .account{
+    font-size:23px;
+    color:#000000;
+}
+.register-section .card-back{
+    width:570px;
+}
+.register-section .access-btn{
+    padding-bottom:0px;
+}
+.register-section .main-content{
+padding-left:77px;
+padding-right:77px;
+}
+.register-section .card-back .login-head{
+    color: #B3B3B3;
+    margin-top:15px;
+    font-size:36px;
+    font-weight:bold;
+    text-align: center;
+    padding-bottom: 52px;
+    padding-top: 38px;
+}
+.register-section .card-back .register-head{
+    color: #2B3E90;
+}
+.register-section .main-content .all-access{
+    height:42px;
+    font-size: 25px;
+    opacity:45%;
+    padding-left:50px;
+}
+.main-content .form-check{
+    font-size:18px;
+}
+.main-content .form-check .agree-access{
+    padding-left: 15px;
+}
+.register-section .access-btn .reg-btn{
+    background-color:#2B3E90;
+    color:#fff;
+    font-size:22px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    padding-right: 25px;
+    padding-left:25px;
+}
+.register-section .access-btn .fst-italic{
+    font-size: 23px;
+}
+.main-content .access-btn .register-btn{
+    font-size:18px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.main-content .access-btn .log-btn{
+    font-size:18px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-bottom:40px;
 }
