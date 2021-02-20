@@ -19,13 +19,15 @@
 li{
     list-style-type: none;   
 }
-
-
+.btn{
+    color:#fff;
+    font-size: 17px;
+}
 
 
 .sidebar .nav-item{
     font-size:22px;
-    color:#2B3E90;
+    color:#2B3E90 !important;
   
 }
 
@@ -193,33 +195,40 @@ padding-left: 42px;
 color: #2B3E90;
 }
 .main-menu{
-    background-color: #FFFFFF;
+    background-color: #fff;
 }
 .main-menu .navbar-nav{
     padding-left:70px;   
+}
+.main-menu .navbar-brand{
+    padding-top:24px;
+    padding-bottom: 24px;
 }
 .main-menu .navbar-nav .nav-item .nav-link{
     padding-left: 45px !important;
     font-size: 18px;
 }
-.box-1 .profile-btn{
+.main-menu .navbar-nav .hot-line{
+    padding-left: 150px;
+    margin-top: 8px;
+}
+.main-menu .navbar-nav .profile-btn{
     background-color:#2B3E90 ;
 color:white;
 padding-left: 10px;
 padding-right: 10px;
 padding-top: 2px;
 padding-bottom: 2px;
-margin-left:43px ;
 font-size: 23px;
+margin-left: 43px;
 }
-
-.box-1 .sign-out-btn{
-color:#FFB013;
+.main-menu .navbar-nav .sign-out-btn{
+    color:#FFB013;
 border-radius:5px;
 padding-left: 5px;
 padding-right: 5px;
-padding-top: 0px;
-padding-bottom: 0px;
+padding-top: 4px;
+padding-bottom: 4px;
 margin-left: 27px;
 font-size: 20px;
 }
@@ -232,40 +241,25 @@ font-size: 20px;
     color: #2B3E90;
     font-size: 19px;
 }
-.card-menu{
-    border-radius: 5px;
+.card-menu .left{
+   
 }
+.card-menu .card{
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+
 .card-menu .card-body .card-title{
     font-size: 25px;
-    color: #2B3E90;
+    color: #2B3E90 !important;
     font-weight: bold;
 }
 .card-menu .card-body .card-text{
-    color: #2B3E90;
+    color: #2B3E90 !important;
     font-size: 20px;
 }
 
-.box-1 .login-btn{
-    border:1px solid #1B0E92;
-    color:#2B3E90;
-
-padding-left: 25px;
-padding-right: 25px;
-padding-top: 0px;
-padding-bottom: 0px;
-margin-left: 27px;
-font-size: 20px;
-}
-.box-1 .sign-up-btn{
-    background-color:#2B3E90 ;
-    color:white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 2px;
-    padding-bottom: 3px;
-    margin-left:43px ;
-    font-size: 23px;
-}
 .login-section .card-back{
 width: 570px;
 }
