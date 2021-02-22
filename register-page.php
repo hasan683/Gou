@@ -23,7 +23,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto">
+    <ul class="navbar-nav me-auto">
         <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="index-page.php">Home</a>
         </li>
@@ -36,16 +36,17 @@
         <li class="nav-item">
         <a class="nav-link" href="about-page.php">About</a>
         </li>
+        <li class="hot-line">
+                        <i class="icon fad fa-phone-plus pe-3"></i>
+                        <span class="number">Hot-Line:01404432536</span>
+                    </li>
+                    <li class="box-1">
+                    <a href="profile.php" button type="button" class="btn login-btn">Login</a>
+                    <a href="login.php" button type="button" class="btn sign-up-btn">Sign Up</a>
+                    </li>
       </ul>
-      <div class="hot-line">
-    <i class="icon fad fa-phone-plus pe-3"></i>
-    <span class="number">Hot-Line:01404432536</span>
-    </div>
-      <form class="d-flex box-1">
+    
      
-      <a href="profile.php" button type="button" class="btn login-btn">Login</a>
-      <a href="login.php" button type="button" class="btn sign-up-btn">Sign Up</a>
-      </form>
     </div>
   </div>
 </nav>

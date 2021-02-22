@@ -7,7 +7,7 @@
                         <div class="card-body">
                             <div class="text-center mb-5">
                                 <img class="" src="img/mask.png">
-                                <h5 class="card-title text-primary fs-4">Dr. Doctor Name Student</h5>
+                                <h5 class="card-title fs-4">Dr. Doctor Name Student</h5>
                                 <p class="card-text">BMDC:A123456</p>
                             </div>
                             <ul>
@@ -58,21 +58,23 @@
                     </div>
                 </div>
                 <div class="col-sm-8 mt-4">
+                <section class="top-section">
                     <div class="row">
                         <div class="col-12">
                             <div class="card shadow">
                                 <div class="card-body">
-                                    <h5 class="card-title text-warning">My Online Exams</h5>
+                                    <h5 class="card-title">My Online Exams</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
+</section>
                     <div class="row">
                         <div class="col-lg-6 mt-4">
                             <div class="card shadow text-center">
                                 <div class="card-body">
-                                    <h5 class="card-title text-primary">Online Exam Name:1</h5>
-                                    <p class="card-text text-primary">Duration:1 Hour<br>
+                                    <h5 class="card-title">Online Exam Name:1</h5>
+                                    <p class="card-text">Duration:1 Hour<br>
                                         Mark:200
                                     </P>
                                     <a href="#" button type="button" class="btn btn-warning px-5">Start Exam</a>
@@ -82,8 +84,8 @@
                         <div class="col-lg-6 mt-4">
                         <div class="card shadow text-center">
                                 <div class="card-body">
-                                    <h5 class="card-title text-primary">Online Exam Name:1</h5>
-                                    <p class="card-text text-primary">Duration:1 Hour<br>
+                                    <h5 class="card-title">Online Exam Name:1</h5>
+                                    <p class="card-text">Duration:1 Hour<br>
                                         Mark:200
                                     </P>
                                     <a href="#" button type="button" class="btn btn-outline-warning px-4">See Result</a>

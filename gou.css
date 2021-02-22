@@ -1,12 +1,19 @@
 
-                                                                 img{
-                                                                    max-width: 100%;
-                                                                }
-.rounded-circle{
-    border-radius: 50%;
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
 
+p {
+    margin-bottom: 0 !important;
+}
 
+.main-menu .navbar-brand img {
+    height: 60px;
+    margin: 15px 0;
+}
 
 .none{
     list-style-type: none;
@@ -23,14 +30,18 @@ li{
     color:#fff;
     font-size: 17px;
 }
-
-
-.sidebar .nav-item{
-    font-size:22px;
-    color:#2B3E90 !important;
-  
+.top-section .card .card-body .card-title{
+    color:#FFB013 !important;
+}
+.sidebar .card .card-title{
+    color:#2B3E90 !important;  
 }
 
+.sidebar .nav-item .nav-link{
+    color:#2B3E90 !important;
+    font-size:23px;
+    font-family: roboto;
+}
 .sidebar .nav-item.active {
     background-color: #FFB013;
     border-radius: 4px;
@@ -40,29 +51,33 @@ li{
     color: #fff;
     
 }
+.card .card-body .card-text{
+    color:#2B3E90 !important; 
+}
 
 .sidebar .nav-item.my-profile  :hover{
 color:#FFB013;
 }
 
-.card.enrolled-card{
-background-color:#FFF1C8;
-font-size: 29px;
-}
-.enrolled-card .card-title{
+
+.profile-head .enrolled-card{
     font-size: 35px;
+    background-color: #FFB013;
+    opacity:20%
 }
 
-.card.completed-card{
-    background-color:#2B3E90;
+.profile-head .completed-card{
+    background-color: #2B3E90;
+    opacity:20%;
     font-size: 29px;
 }
 .completed-card .card-title{
     font-size: 35px;
 }
 
-.card.certificates-card{
-    background-color: #686868; 
+.profile-head .certificates-card{
+   background-color: #686868;
+   opacity:20%;
     font-size: 29px;
 }
 
@@ -172,41 +187,54 @@ font-size: 29px;
     margin-top: 28px; 
     border: none; 
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 footer{
-background-color: #E5EDFF;
+    background-color: #E5EDFF;
+    margin-top: auto;
 }
-footer .lower_footer p {
-    color: #7D8597;
-    margin-top: 20px;
+
+footer .lower_footer > div,
+footer .lower_footer {
+    display: flex;
+    align-items: center;
 }
+
 footer .lower_footer a{
     color: #7D8597;
 }
+
 a{
     text-decoration: none;
 }
-footer .lower_footer .img{
-    width:30px;
-    height:10px;
+
+footer .lower_footer img{
+    height: 60px;
 }
-footer .lower_footer .number{
-font-size: 22px;
-padding-left: 42px;
-color: #2B3E90;
+footer .lower_footer .brand_text{
+    font-size: 26px;
+    padding-left: 30px;
+    /* padding-left: 0; */
+    color: #2B3E90;
+    font-family: denmark;
 }
+
 .main-menu{
     background-color: #fff;
 }
 .main-menu .navbar-nav{
-    padding-left:70px;   
+    padding-left:6px;   
 }
-.main-menu .navbar-brand{
-    padding-top:24px;
-    padding-bottom: 24px;
-}
+
 .main-menu .navbar-nav .nav-item .nav-link{
-    padding-left: 45px !important;
+    padding-left: 40px;
     font-size: 18px;
+    font-family: 'Rubik', sans-serif;
 }
 .main-menu .navbar-nav .hot-line{
     padding-left: 150px;
@@ -215,8 +243,8 @@ color: #2B3E90;
 .main-menu .navbar-nav .profile-btn{
     background-color:#2B3E90 ;
 color:white;
-padding-left: 10px;
-padding-right: 10px;
+padding-left: 17px;
+padding-right: 17px;
 padding-top: 2px;
 padding-bottom: 2px;
 font-size: 23px;
@@ -225,12 +253,33 @@ margin-left: 43px;
 .main-menu .navbar-nav .sign-out-btn{
     color:#FFB013;
 border-radius:5px;
-padding-left: 5px;
-padding-right: 5px;
+padding-left: 11px;
+padding-right: 11px;
 padding-top: 4px;
 padding-bottom: 4px;
 margin-left: 27px;
 font-size: 20px;
+}
+.main-menu .navbar-nav .login-btn{
+    color:#2B3E90;
+    border: 1px solid #707070;
+    border-radius:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 27px;
+    font-size: 20px;
+}
+.main-menu .navbar-nav .sign-up-btn{
+    background-color:#2B3E90 ;
+color:white;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 0px;
+padding-bottom: 0px;
+font-size: 23px;
+margin-left: 43px;
 }
 .hot-line  .number{
     color: #2B3E90;
@@ -245,8 +294,8 @@ font-size: 20px;
    
 }
 .card-menu .card{
-    padding-right: 22px;
-    padding-left: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 
@@ -366,3 +415,7 @@ padding-right:77px;
     padding-right:30px;
     margin-bottom:40px;
 }
+.about-section .about-title .lorem{
+    font-size: 18px;  
+}
+
