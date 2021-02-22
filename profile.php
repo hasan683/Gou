@@ -57,19 +57,22 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-8 mt-4">
+                
+                <div class="col-sm-7 mt-4">
+                <section class="profile-head">
                     <div class="row">
                         <div class="col-12">
-                    
+                    <div class="card shadow">
                                 <div class="card-body">
-                                    <h5 class="card-title text-primary">Dashboard</h5>
+                                    <h5 class="card-title">Dashboard</h5>
+                                    
                                     <div class="row">
+                                    
                                         <div class="col-lg-6 mt-4">
                                             <div class="card enrolled-card pb-3">
                                                 <div class="card-body pt-5">
-                                                    <h5 class="card-title text-primary text-warning">05</h5>
-                                                    <p class="card-text text-primary text-warning">
+                                                    <h5 class="card-title">05</h5>
+                                                    <p class="card-text">
                                                         Enrolled Courses
                                                     </P>
                                                 </div>
@@ -78,8 +81,8 @@
                                         <div class="col-lg-6 mt-4">
                                             <div class="card completed-card pb-3">
                                                 <div class="card-body pt-5">
-                                                    <h5 class="card-title text-primary">05</h5>
-                                                    <p class="card-text text-primary">
+                                                    <h5 class="card-title">05</h5>
+                                                    <p class="card-text">
                                                         Completed Courses
                                                     </P>
                                                 </div>
@@ -88,19 +91,22 @@
                                         <div class="col-lg-6 mt-4">
                                             <div class="card certificates-card pb-3">
                                                 <div class="card-body pt-5">
-                                                    <h5 class="card-title text-light">05</h5>
-                                                    <p class="card-text text-light">
+                                                    <h5 class="card-title">05</h5>
+                                                    <p class="card-text">
                                                         Certificates
                                                     </P>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    
                                 </div>
-                            
+                            </div>
                         </div>
                     </div>
+                    </section>
                 </div>
+             
             </div>
         </div>
     </div>

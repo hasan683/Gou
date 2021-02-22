@@ -7,7 +7,7 @@
                         <div class="card-body">
                             <div class="text-center mb-5">
                                 <img class="" src="img/mask.png">
-                                <h5 class="card-title text-primary fs-4">Dr. Doctor Name Student</h5>
+                                <h5 class="card-title fs-4">Dr. Doctor Name Student</h5>
                                 <p class="card-text">BMDC:A123456</p>
                             </div>
                             <ul>
@@ -58,21 +58,23 @@
                     </div>
                 </div>
                 <div class="col-sm-8 mt-4">
+                <section class="top-section">
                     <div class="row">
                         <div class="col-12">
                             <div class="card shadow">
                                 <div class="card-body">
-                                    <h5 class="card-title text-warning">My Certificates</h5>
+                                    <h5 class="card-title">My Certificates</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </section>
                     <div class="row">
                     <div class="col-lg-6 mt-4">
                             <div class="card shadow text-center">
                                 <div class="card-body">
-                                    <h5 class="card-title text-primary">Online Course Name:1</h5>
-                                    <p class="card-text text-primary">Duration:3 Month<br>
+                                    <h5 class="card-title">Online Course Name:1</h5>
+                                    <p class="card-text">Duration:3 Month<br>
                                        Class:20<br>
                                       Start Date:02-Feb-2021<br>
                                       End Date:02-May-2021

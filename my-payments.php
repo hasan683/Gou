@@ -8,7 +8,7 @@
                             <div class="card-body">
                                 <div class="text-center mb-3">
                                     <img class="" src="img/mask.png">
-                                    <h5 class="card-title text-primary fs-4">Dr. Doctor Name Student</h5>
+                                    <h5 class="card-title fs-4">Dr. Doctor Name Student</h5>
                                     <p class="card-text">BMDC:A123456</p>
                                 </div>
                                 <ul>
@@ -60,16 +60,17 @@
                     </div>
                 </div>
                 <div class="col-sm-8 mt-4">
+                <section class="top-section">
                     <div class="row">
                         <div class="col-12">
                             <div class="card shadow">
                                 <div class="card-body">
-                                    <h5 class="card-title text-warning">My Payments</h5>
+                                    <h5 class="card-title">My Payments</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                </section>
 
                     <div class="card shadow mt-3">
                         <div class="card-body overflow-auto">
@@ -106,5 +107,6 @@
 
                 </div>
             </div>
+        </div>
         </div>
         <?php include 'footer.php';?>
