@@ -30,7 +30,7 @@ li{
     color:#fff;
     font-size: 17px;
 }
-.top-section .card .card-body .card-title{
+/* .top-section .card .card-body .card-title{
     color:#FFB013 !important;
 }
 .sidebar .card .card-title{
@@ -41,49 +41,80 @@ li{
     color:#2B3E90 !important;
     font-size:23px;
     font-family: roboto;
-}
-.sidebar .nav-item.active {
+} */
+/* .sidebar .nav-item.active {
     background-color: #FFB013;
     border-radius: 4px;
-}
+} */
 
-.sidebar .nav-item.active a{
+/* .sidebar .nav-item.active a{
     color: #fff;
     
-}
-.card .card-body .card-text{
+} */
+/* .card .card-body .card-text{
     color:#2B3E90 !important; 
 }
 
 .sidebar .nav-item.my-profile  :hover{
 color:#FFB013;
 }
+ */
+ .profile-head .card-body .dashboard{
+     font-size: 35px;
+     font-weight: bold;
+     color: #2B3E90;
+ }
+ .card .card-body .enrolled{
+    font-family: 'roboto', sans-serif;
+    font-size: 29px;
+    color: #FFB013;
+}
 
+.card .card-body .completed{
+   font-size: 29px;
+   font-family: 'regular', sans-serif;
+   color: #2B3E90;
+}
+.card .card-body .certificates{
+    font-size: 29px;
+    font-family: 'regular', sans-serif;
+    color: #686868;
+}
 
 .profile-head .enrolled-card{
-    font-size: 35px;
-    background-color: #FFB013;
-    opacity:20%
+    background-color: rgba(255,176,19,0.20);  
 }
 
 .profile-head .completed-card{
-    background-color: #2B3E90;
-    opacity:20%;
-    font-size: 29px;
-}
-.completed-card .card-title{
-    font-size: 35px;
+    background-color: rgba(43,62,144,0.2);
+  
 }
 
 .profile-head .certificates-card{
-   background-color: #686868;
-   opacity:20%;
-    font-size: 29px;
+    background-color: rgba(104,104,104,0.2);
+     
+ }
+
+.completed-card .card-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #2B3E90;
+}
+
+.enrolled-card .card-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#F3A915;
 }
 
 .certificates-card .card-title{
     font-size: 35px;
+    color: #686868;
+    font-weight: bold;
 }
+
+
+
 .myleftctn{
     position: relative;
     background-color: #FFB013;
@@ -418,4 +449,41 @@ padding-right:77px;
 .about-section .about-title .lorem{
     font-size: 18px;  
 }
+.sidebar .card .text-center .card-title{
+    color:#2B3E90;
+    font-weight: bold;
+    font-size: 25px;
+}
 
+.sidebar .nav-list .nav-item{
+    color:#662483;
+}
+
+.sidebar .nav-item a {
+    color:#2B3E90;
+    font-size: 18px;
+    font-family: roboto;
+    height:52px;
+    padding:14px;
+}
+
+.sidebar .nav-item a:hover {
+    color: #FFB013;
+}
+
+.sidebar .nav-item.active {
+    background-color: #FFB013;
+    margin-left: -10px;
+    margin-right: 15px;
+    border-radius: 7px;
+}
+.sidebar .nav-item{
+   
+    margin-left: -10px;
+    margin-right: 15px;
+    
+}
+
+.sidebar .nav-item.active a {
+    color: #fff !important;
+}
