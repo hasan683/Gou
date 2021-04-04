@@ -5,9 +5,9 @@
     outline: 0;
     box-sizing: border-box;
 }
-ol, ul {
+/* ol, ul {
     padding:0px !important;
-}
+} */
 p {
     margin-bottom: 0 !important;
 }
@@ -560,13 +560,134 @@ padding-right:57px;
 .checkbox-1 .form-check-input{
    border-color:#0F77B7; 
 }
+
 .checkbox-1 .form-check-label{
     font-size: 17px;
 }
+
 .checkbox-2 .form-check-input{
     border-color:#0F77B7; 
     margin-left: 8px;
  }
+
  .checkbox-2 .form-check-label{
      font-size: 17px;
  }
+
+.text{
+     font-size: 15px;
+     font-family: 'roboto',sans-serif;
+ }
+
+ .dropdown-input{
+    margin-left:20px;
+    width:270px;
+    padding-top: 2px;
+    padding-bottom:2px;
+ }
+ .dropdown-input-2{
+    margin-left:23px;
+    width:270px;
+    padding-top: 2px;
+    padding-bottom:2px;
+ }
+ .update-btn{
+    background-color: #0F77B7;
+    font-size:17px;
+    font-weight: bold;
+   padding:1px 32px;
+   margin-top:20px;
+   margin-bottom:40px;
+ }
+ .update-btn:hover{
+     color:white;
+ }
+ /* home -page */
+
+ .banner{
+    background-image: url(img/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner {
+    background-image: url(img/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .text-1{
+    font-family: 'poppins',sans-serif;
+    font-size:40px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 50px;
+    padding-left: 85px;
+}
+.banner .text-2{
+    font-family: 'poppins',sans-serif;
+    font-size:32px;
+    color:#FFB013;
+    padding-left: 85px;
+   
+}
+.banner .text-3{
+    font-size:23px;
+    font-family: 'rubik',sans-serif;
+    color:#fff;
+    padding-left: 85px;
+    margin-top: 20px;
+}
+.banner .join-btn{
+margin-top:30px;
+background-color:#FFB013 ;
+border-radius: 50px;
+margin-left: 85px;
+margin-bottom: 200px;
+}
+.hasan{
+    background-color: aquamarine;
+    
+}
+.popular-courses-section .text{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.popular-courses-section .price-btn{
+    font-size:15px !important;
+    color:#00B592;
+    background-color: rgba(0,181,146,0.1);
+    padding:2px 15px;
+    margin-left: 65px;
+    margin-top: 8px;
+    border-radius: 25px;
+}
+.popular-courses-section .text-2{
+    color: #475677;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px !important;
+    padding-left:20px;
+    margin-top: 10px;
+}
+.popular-courses-section .star{
+    font-size:20px;
+    color:#FFB013;
+    padding-left:20px;
+    font-size: 20px;
+    margin-top:10px;
+    
+}
+.popular-courses-section .viewers{
+    font-size: 13px;
+    font-family: 'rubik',sans-serif;
+    padding-left: 60px;
+    margin-top:15px;
+}
+.popular-courses-section  .viewers-number{
+    position:relative;
+}
+.popular-courses-section .number{
+    position:absolute;
+    top:10px;
+   left:-125px;
+}
