@@ -63,10 +63,6 @@
                             <input type="text" class="form-control all-access" placeholder="Full Name">
                         </div>
                         <div class="mb-3">
-                        <i class="fas fa-home"></i>
-                            <input type="text" class="form-control all-access" placeholder="BMDC No" id="exampleInputBMDCNo1">
-                        </div>
-                        <div class="mb-3">
                         <i class="fas fa-mobile-alt"></i>
                             <input type="number" class="form-control all-access" placeholder="Phone" id="exampleInputnumber1">
                         </div>
@@ -82,14 +78,14 @@
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1"><span class="agree-access">I agree to the
-                                <strong class="text-warning fw-light"> Terms of Use</strong> and
-                                <strong class="text-warning fw-light"> Privacy Policy</strong></span>
+                                <strong class="text-warning"> Terms of Use</strong> and
+                                <strong class="text-warning"> Privacy Policy</strong></span>
                             </label>
                         </div>
                         <div class="text-center access-btn">
-                        <a href="about-page.php" button type="submit" class="btn reg-btn px-4">Register</a>
+                        <a href="about-page.php" button type="submit" class="btn reg-btn">Register</a>
                         <p class="fst-italic mt-4">Already have an account ?</p>
-                        <a href="login.php" button type="button" class="btn btn-outline-warning log-btn  mt-1">Login Now</a>
+                        <a href="login.php" button type="button" class="btn log-btn">Login Now</a>
                         </div>
                     </form>
                 </div>
@@ -97,46 +93,33 @@
         </div>
     </section>
    
-<footer class="mt-5">
-    <div class="container top_footer pt-4">
-        <div class="row">
+    <footer class="mt-5">
+        <div class="container top_footer py-3">
             <div class="lower_footer">
-                <div class="container">
-                    <div class="row">
-                     <div class="col-lg-5 text-center">
-                            <img class="img-fluid" src="img/logo.png">
-                            <span class="number">Genesis Online University</span>
-                            </p>
-                        </div>
-                        <div class="col-lg-3 text-center">
-                            <p>Copyright
-                                &copy;2021
-                                <a class="" href="/">Gou</a>
-                            </p>
-                        </div>
-                        <div class="col-lg-4 text-center">
-                            <p>
-                                Developed By:
-                                <a class="link" target="_blank" href="//www.medigeneit.com">MedigeneIT.com</a>
-                            </p>
-                        </div>
-                    </div>
+                <div>
+                    <img class="img-fluid" src="img/logo.png" alt="Footer Logo">
+                </div>
+                <div class="me-lg-auto">
+                    <span class="brand_text">Genesis Online University </span>
+                </div>
+                <div class="mx-auto">Copyright
+                    &copy;2021
+                    <a class="ps-1" href="/">Gou</a>
+                </div>
+                <div class="text-right">
+                    <span>Developed By :</span>
+                    <a class="link ps-1" target="_blank" href="//www.medigeneit.com"> MedigeneIT.com</a>
                 </div>
             </div>
-</footer>
+        </div>
+    </footer>
 
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
-    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
-  </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

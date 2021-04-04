@@ -61,34 +61,35 @@
             </div>
         </div>
 
-            <div class="col-sm-8 mt-4">
+        <div class="col-sm-8 mt-4">
             <section class="top-section">
-                <div class="row">             
+                <div class="row">
                     <div class="col-12">
                         <div class="card shadow">
                             <div class="card-body">
-                                <h5 class="card-title">My Courses</h5>
+                                <p class="card-title">My Courses</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                </section>
-                <div class="row">
-                    <div class="col-lg-6 mt-4">
-                        <div class="card shadow text-center">
-                            <div class="card-body">
-                                <h5 class="card-title">Online Course Name:1</h5>
-                                <p class="card-text">Duration:3 Month<br>
-                                    Class:20<br>
-                                    Validity:02-Feb-2021
-                                </P>
-                                <a href="" button type="button" class="btn btn-warning px-4">Start Course</a>
-                            </div>
-                        </div>
+            </section>
+            <div class="row">
+                <div class="col-lg-6 mt-4 online-course">
+                    <div class="card shadow text-center">
+                      
+                            <ul class="mt-3">
+                                <li class="card-title">Online Course Name:1</li>
+                                <li class="card-text">Duration:3 Months</li>
+                                <li class="card-text">Class:20</li>
+                                <li class="card-text"> Validity:02-Feb-2021</li>
+                           
+                            <a href="" button type="button" class="btn card-btn">Start Course</a>
+                            </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 <?php include 'footer.php';?>
