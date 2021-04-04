@@ -10,7 +10,7 @@
                                 <li class="card-text">Course Fee:500 tk</li>                          
                             <a href="" button type="button" class="btn card-btn">Purchase Now</a>
                     </ul>
-                </div>
+                </div>         
             </div>
             <div class="col-sm-4 online-course">
                 <div class="shadow card text-center">
