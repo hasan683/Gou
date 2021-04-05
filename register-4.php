@@ -98,6 +98,20 @@
                                 </select>
                             </div>
                         </div>
+                        <div class="d-flex flex-row justify-content-center mt-2">
+                            <div class="text">
+                               BMDC Type:
+                            </div>
+                            <div>
+                                <select class="form-select dropdown-input-3" aria-label="Default select example">
+                                    <option selected>select your BMDC</option>
+                                    <option value="1">Temporary</option>
+                                    <option value="2">Permanent</option>
+                                  
+                                </select>
+                            </div>
+                            <i class="far fa-info-circle"></i>
+                        </div>
                         <a href="" button type="button" class="btn update-btn">Update</a>
                     </div>
                 </div>

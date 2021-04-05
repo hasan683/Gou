@@ -5,9 +5,7 @@
     outline: 0;
     box-sizing: border-box;
 }
-/* ol, ul {
-    padding:0px !important;
-} */
+
 p {
     margin-bottom: 0 !important;
 }
@@ -63,32 +61,11 @@ li{
     padding:2px 32px;
     border-color: #FFB013;
     color:#FFB013;
-} */
-/* .sidebar .card .card-title{
-    color:#2B3E90 !important;  
+} 
+.online-course ul{
+    padding-left: 0px;
 }
 
-.sidebar .nav-item .nav-link{
-    color:#2B3E90 !important;
-    font-size:23px;
-    font-family: roboto;
-} 
-/* .sidebar .nav-item.active {
-    background-color: #FFB013;
-    border-radius: 4px;
-} 
-
-.sidebar .nav-item.active a{
-    color: #fff;
-    
-} 
-.card .card-body .card-text{
-    color:#2B3E90 !important; 
-}
-
-.sidebar .nav-item.my-profile  :hover{
-color:#FFB013;
-}  */
 
  .profile-head .card-body .dashboard{
      font-size: 35px;
@@ -294,7 +271,7 @@ footer .lower_footer .brand_text{
 }
 
 .main-menu .navbar-nav .nav-item .nav-link{
-    /* padding-left: 40px; */
+    padding-left: 40px;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
 }
@@ -305,22 +282,18 @@ footer .lower_footer .brand_text{
 .main-menu .navbar-nav .profile-btn{
     background-color:#2B3E90 ;
 color:white;
-padding-left: 17px;
-padding-right: 17px;
-padding-top: 2px;
-padding-bottom: 2px;
-font-size: 23px;
+padding:3px 17px;
+font-size: 18px;
 margin-left: 43px;
+margin-top: 8px;
 }
 .main-menu .navbar-nav .sign-out-btn{
     color:#FFB013;
 border-radius:5px;
-padding-left: 11px;
-padding-right: 11px;
-padding-top: 4px;
-padding-bottom: 4px;
+padding:2px 11px;
 margin-left: 27px;
-font-size: 20px;
+font-size: 18px;
+margin-top: 7px;
 }
 .main-menu .navbar-nav .login-btn{
     color:#2B3E90;
@@ -585,12 +558,21 @@ padding-right:57px;
     padding-top: 2px;
     padding-bottom:2px;
  }
+
  .dropdown-input-2{
     margin-left:23px;
     width:270px;
     padding-top: 2px;
     padding-bottom:2px;
  }
+
+ .dropdown-input-3{
+    margin-left:46px;
+    width:270px;
+    padding-top: 2px;
+    padding-bottom:2px;
+ }
+
  .update-btn{
     background-color: #0F77B7;
     font-size:17px;
@@ -598,6 +580,16 @@ padding-right:57px;
    padding:1px 32px;
    margin-top:20px;
    margin-bottom:40px;
+ }
+ 
+ .d-flex{
+position:relative;
+ }
+ .fa-info-circle{
+     position: absolute;
+      top:8px;
+      margin-left: 450px;
+      
  }
  .update-btn:hover{
      color:white;
@@ -677,6 +669,13 @@ margin-bottom: 200px;
     margin-top:10px;
     
 }
+.popular-courses-section .title{
+     font-size: 23px;
+     color: #2B3E90;
+     font-family: 'roboto',sans-serif;
+     margin-bottom: 8px !important;
+}
+
 .popular-courses-section .viewers{
     font-size: 13px;
     font-family: 'rubik',sans-serif;
@@ -690,4 +689,44 @@ margin-bottom: 200px;
     position:absolute;
     top:10px;
    left:-125px;
+}
+.home-enroll-word{
+    margin-top: 20px;
+}
+
+.home-enroll-word .text{
+    font-size: 18px;
+    color:#475677;
+    font-family: 'poppins',sans-serif;
+
+}
+
+.home-enroll-word .btn-lg{
+    padding: 0px 25px;
+    color:#475677;
+    font-size: 15px;
+    font-family: 'rubik',sans-serif;
+    border-color: #475677;
+    border-radius: 50px;
+    margin-top: 7px;
+}
+
+.home-enroll-word .card-title{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'rubik',sans-serif;
+}
+.home-enroll-word .text{
+    color:#293B5F;
+    font-size: 18px;
+    font-family: 'poppins',sans-serif;
+    margin-top: 5px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+
+.home-enroll-word .title{
+    font-size: 13px;
+    font-family: 'poppins',sans-serif;
+
 }

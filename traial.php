@@ -1,15 +1,15 @@
 <?php
-$array=array(5,array(1,2,5));
-$sum=0;
-for ($x = 0; $x <= count($array); $x++) {
- $sum += $x;
-  
-  
+
+
+$sum = 0;
+for ($i =1; $i <= 1000; $i+7) {
+    if($i2==0){
+    $sum += $i;
+
+
+    }
+   
 }
-echo $sum; 
 
-
-
-
+echo  $sum;
 ?>
-
