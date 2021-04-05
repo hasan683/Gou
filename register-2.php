@@ -60,7 +60,7 @@
                 <div class="card-body">
                     <p class="card-title">Welcome to</p>
                     <p class="card-text">GENESIS ONLINE UNIVERSITY</p>
-                    <p class="card-text1">please input your academic information</p>
+                    <p class="card-text1">Please input your academic information</p>
                     <hr class="border-1">
                     <div class="checkbox-1">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -79,9 +79,9 @@
                             <div>
                                 <select class="form-select dropdown-input" aria-label="Default select example">
                                     <option selected>select your university</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                    <option value="1">Dhaka Medical Collage</option>
+                                    <option value="2">Rajshahi Medical Collage</option>
+                                    <option value="3">Cumiilla Medical Collage</option>
                                 </select>
                             </div>
                         </div>
@@ -91,10 +91,10 @@
                             </div>
                             <div>
                                 <select class="form-select dropdown-input-2" aria-label="Default select example">
-                                    <option selected>select your university</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                    <option selected>select your year</option>
+                                    <option value="1">2019</option>
+                                    <option value="2">2020</option>
+                                    <option value="3">2021</option>
                                 </select>
                             </div>
                         </div>

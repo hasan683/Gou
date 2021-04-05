@@ -60,7 +60,7 @@
             <div class="card-body">
                 <p class="card-title">Welcome to</p>
                 <p class="card-text">GENESIS ONLINE UNIVERSITY</p>
-                <p class="card-text1">please input your academic information</p>
+                <p class="card-text1">Please input your academic information</p>
                 <hr class="border-1">
                 <div class="checkbox-1">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
