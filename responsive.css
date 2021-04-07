@@ -78,4 +78,27 @@
     margin-left: 85px;
     margin-bottom: 200px;
     } */
+    .welcome-page .card .card-text {
+        font-size: 20px;
+    }
+    .welcome-page .card .card-text1 {
+        font-size: 14px;
+    }
+    .main-menu .navbar-nav .login-btn {
+        margin-top: 13px;
+        margin-bottom: 14px;
+    }
+    .main-menu .navbar-nav .profile-btn {
+        margin-left: 25px;
+        margin-top: 13px;
+        margin-bottom: 12px;
+    }
+    .register-section .main-content {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .login-section .main-content {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
 }

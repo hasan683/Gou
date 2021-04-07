@@ -98,7 +98,7 @@
                                 </select>
                             </div>
                         </div>
-                        <a href="" button type="button" class="btn update-btn">Update</a>
+                        <a href="register-3.php" button type="button" class="btn update-btn">Update</a>
                     </div>
                 </div>
             </div>

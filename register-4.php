@@ -112,7 +112,7 @@
                             </div>
                             <i class="far fa-info-circle"></i>
                         </div>
-                        <a href="" button type="button" class="btn update-btn">Update</a>
+                        <a href="index-page.php" button type="button" class="btn update-btn">Update</a>
                     </div>
                 </div>
             </div>

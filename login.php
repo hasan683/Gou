@@ -61,7 +61,7 @@
         <div class="row mx-0 justify-content-center">
             <div class="col-md-9 card-back px-5 shadow">
                 <p class="login-head"><u>Login</u><span class="Register-header ms-3"><u>Register</u></span></p>
-                <div class="main-content px-4">
+                <div class="main-content">
                     <form>
                         <div class="mb-3">
                             <input type="text" class="form-control email" placeholder="Email or Phone" id="exampleInputnumber1">
@@ -77,7 +77,7 @@
                             <label class="form-check-label" for="exampleCheck1"><span class="ms-1">Remember me</label>
                         </div>
                         <div class="text-center access-btn">
-                        <a href="index-page.php" button type="submit" class="btn btn-login">Login</a>
+                        <a href="register-1.php" button type="submit" class="btn btn-login">Login</a>
                         <p class="mt-3 account">Don't have an account?</p>
                         <a href="register-page.php" button type="button" class="btn  register-btn">Register Now</a>
                         </div>

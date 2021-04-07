@@ -337,6 +337,7 @@ margin-left: 40px;
     color: #2B3E90 !important;
     font-weight: bold;
 }
+
 .card-menu .card-body .card-text{
     color: #2B3E90 !important;
     font-size: 20px;
@@ -345,6 +346,11 @@ margin-left: 40px;
 .login-section .card-back{
 width: 450px;
 }
+.login-section .main-content {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .login-section .access-btn{
      padding-bottom:20px;
     
@@ -366,7 +372,7 @@ width: 450px;
 
 .login-section .main-content .email{
     height:42px;
-    font-size: 23px;
+    font-size: 20px;
     opacity:45%;
 } 
 .login-section .main-content .password{
@@ -398,7 +404,7 @@ padding:2px 50px;
     color:#000000;
 }
 .register-section .card-back{
-    width:500px;
+    width:450px;
 }
 .register-section .access-btn{
     padding-bottom:0px;
@@ -410,7 +416,7 @@ padding-right:57px;
 .register-section .card-back .login-head{
     color: #B3B3B3;
     margin-top:15px;
-    font-size:36px;
+    font-size:30px;
     font-weight:bold;
     text-align: center;
     padding-bottom: 52px;
@@ -421,7 +427,7 @@ padding-right:57px;
 }
 .register-section .main-content .all-access{
     height:42px;
-    font-size: 25px;
+    font-size: 20px;
     opacity:45%;
   
 }
@@ -429,8 +435,9 @@ padding-right:57px;
     font-size:15px;
     font-family: 'Ubuntu',sans-serif;
 }
-.main-content .form-check .agree-access{
-    padding-left: 15px;
+.main-content .form-check .agree-access {
+    padding-left: 10px;
+    font-size: 13px;
 }
 .register-section .access-btn .reg-btn{
     background-color:#2B3E90;
