@@ -87,8 +87,8 @@
                             </label>
                         </div>
                         <div class="text-center access-btn">
-                        <a href="about-page.php" button type="submit" class="btn reg-btn">Register</a>
-                        <p class="fst-italic mt-4">Already have an account ?</p>
+                        <a href="register-1.php" button type="submit" class="btn reg-btn">Register</a>
+                        <p class="fst-italic mt-2">Already have an account ?</p>
                         <a href="login.php" button type="button" class="btn log-btn">Login Now</a>
                         </div>
                     </form>
@@ -96,8 +96,8 @@
             </div>
         </div>
     </section>
-   
-    <footer class="mt-5">
+    <footer >
+    <footer >
         <div class="container top_footer py-3">
             <div class="lower_footer">
                 <div>
@@ -124,6 +124,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
     </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.0.0/jquery.min.js"></script>
 </body>
 
 </html>

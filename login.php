@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="gou.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <title>Genesis Online University</title>
 
 </head>
@@ -40,13 +42,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="about-page.php">About</a>
                     </li>
-                    <li class="hot-line ms-lg-auto text-center">
+                    <li class="hot-line ms-lg-auto">
                         <i class="icon fad fa-phone-plus pe-3"></i>
                         <span class="number">Hot-Line:01404432536</span>
                     </li>
                     <li class="">
                         <a href="profile.php" class="btn login-btn">Login</a>
-                        <a href="login.php" class="btn  sign-up-btn mt-1">Sign
+                        <a href="login.php" class="btn  sign-up-btn">Sign
                             up</a>
                     </li>
                 </ul>
@@ -56,38 +58,41 @@
     </nav>
 
 
+        <section class="login-section pt-4">
+            <div class="row mx-0 justify-content-center">
+                <div class="col-md-9 card-back px-5 shadow">
+                    <p class="login-head"><u>Login</u><span class="Register-header ms-3"><u>Register</u></span></p>
+                    <div class="main-content">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control email" placeholder="Email or Phone"
+                                    id="exampleInputnumber1">
+                            </div>
 
-    <section class="login-section pt-4">
-        <div class="row mx-0 justify-content-center">
-            <div class="col-md-9 card-back px-5 shadow">
-                <p class="login-head"><u>Login</u><span class="Register-header ms-3"><u>Register</u></span></p>
-                <div class="main-content">
-                    <form>
-                        <div class="mb-3">
-                            <input type="text" class="form-control email" placeholder="Email or Phone" id="exampleInputnumber1">
-                        </div>
-                        
-                        <div class="mb-3">
-                           <input type="password" class="form-control password" placeholder="Password" id="exampleInputPassword1">
-                            <span class="icon-eye"><i class="far fa-eye"></i></span>
-                            <p class="text-end"><u>Forgot Password?</u></p>
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1"><span class="ms-1">Remember me</label>
-                        </div>
-                        <div class="text-center access-btn">
-                        <a href="register-1.php" button type="submit" class="btn btn-login">Login</a>
-                        <p class="mt-3 account">Don't have an account?</p>
-                        <a href="register-page.php" button type="button" class="btn  register-btn">Register Now</a>
-                        </div>
-                    </form>
+                            <div class="mb-3">
+                                <input type="password" class="form-control password" placeholder="Password"
+                                    id="exampleInputPassword1">
+                                <span class="icon-eye"><i class="far fa-eye"></i></span>
+                                <p class="text-end"><u>Forgot Password?</u></p>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1"><span class="ms-1">Remember
+                                        me</label>
+                            </div>
+                            <div class="text-center access-btn">
+                                <a href="index-page.php" button type="submit" class="btn btn-login">Login</a>
+                                <p class="mt-3 account">Don't have an account?</p>
+                                <a href="register-page.php" button type="button" class="btn  register-btn">Register
+                                    Now</a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <footer class="mt-5">
+        </section>
+
+ <footer >
         <div class="container top_footer py-3">
             <div class="lower_footer">
                 <div>
@@ -114,6 +119,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
     </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.0.0/jquery.min.js"></script>
 </body>
 
 </html>

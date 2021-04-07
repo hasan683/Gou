@@ -44,7 +44,7 @@
                             </a>
                         </li>
                         <li class="msi-my-1 nav-item">
-                            <a class="nav-link w-100 msi-dark ps-3" href="#">
+                            <a class="nav-link w-100 msi-dark ps-3" href="my-payments1.php">
                                 <i class="fas fa-columns"></i>
                                 <span class="ps-3">Certificates</span>
                             </a>

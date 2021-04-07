@@ -23,7 +23,15 @@
            font-size: 50px;
        }
 
-
+       .main-menu .navbar-nav .sign-out-btn {     
+         margin-top: 0px; 
+    }
+    .main-menu .navbar-nav .sign-up-btn {
+        margin-top: 0px;
+    }
+    .hot-line .icon {
+        margin-left: 13px;
+    }
        .border-1 {
         margin-left: 10px;
         margin-right: 10px;
@@ -39,47 +47,49 @@
         .text{
        font-size:13px;
     }
+    .text1{
+        font-size:13px;
+     }
        .dropdown-input{
-        margin-left:2px;
-        width:170px;
+        width: 167px;
+        margin-left: 3px;
         font-size: 13px;
      }
      .dropdown-input-2{
-        margin-left:6px;
-        width:170px;
+        width: 167px;
+        margin-left: 6px;
         font-size: 13px;
      }
-     /* .banner .text-1{
-        font-family: 'poppins',sans-serif;
-        font-size:20px;
-        color: #fff;
-        font-weight: bold;
-        margin-top: 50px;
-        padding-left: 85px;
+     .dropdown-input-3 {
+        width: 167px;
+        margin-left: 28px;
+        font-size: 13px;
     }
+    .fa-info-circle {
+        
+        top: 4px;
+        margin-left: 296px;
+    }
+
+     .banner .text-1{      
+        font-size:20px;     
+    }
+
     .banner .text-2{
-        font-family: 'poppins',sans-serif;
         font-size:18px;
-        color:#FFB013;
-        padding-left: 85px;
-       
+             
     }
+
     .banner .text-3{
-        font-size:15px;
-        font-family: 'rubik',sans-serif;
-        color:#fff;
-        padding-left: 85px;
-        margin-top: 20px;
+        font-size:15px;   
     }
-    .banner .join-btn{
-    margin-top:30px;
-    background-color:#FFB013 ;
-    border-radius: 50px;
-    margin-left: 85px;
-    margin-bottom: 200px;
-    } */
+    .home-enroll-word .btn-lg {
+       
+        margin-top: 16px;
+    }
+   
     .welcome-page .card .card-text {
-        font-size: 20px;
+        font-size: 19px;
     }
     .welcome-page .card .card-text1 {
         font-size: 14px;
@@ -94,11 +104,42 @@
         margin-bottom: 12px;
     }
     .register-section .main-content {
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .populer-card{
+        margin-top: 15px;
+    }
+    .popular-courses-section .price-btn {
+        margin-left: 33px;
+       
+    }
+    .popular-courses-section .viewers {
+        padding-left: 18px;
+    }
+    .popular-courses-section {
+        margin-top: 350px;
+    }
+    .card-position .card {
+        bottom: -329px;
+    }
+    .login-section .main-content .form-check {
+        font-size: 15px;
+    }
+    .register-section .access-btn .fst-italic{
+        font-size: 18px;
     }
     .login-section .main-content {
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
+    .main-content .form-check .agree-access {
+        font-size: 11px;
+    }
+    .card-position .img {
+        margin-top: 0px;
+    }
+
 }
+    

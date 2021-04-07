@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="gou.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="slick.css">
     <title>Genesis Online University</title>
 
 </head>
@@ -40,7 +42,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="about-page.php">About</a>
                     </li>
-                    <li class="hot-line ms-lg-auto text-center">
+                    <li class="hot-line ms-lg-auto">
                         <i class="icon fad fa-phone-plus pe-3"></i>
                         <span class="number">Hot-Line:01404432536</span>
                     </li>
