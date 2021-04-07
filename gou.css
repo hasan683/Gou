@@ -308,17 +308,16 @@ margin-top: 7px;
     font-size: 20px;
      margin-top: 3px;
 }
+
 .main-menu .navbar-nav .sign-up-btn{
 background-color:#2B3E90 ;
 color:white;
-padding-left: 5px;
-padding-right: 5px;
-padding-top: 0px;
-padding-bottom: 0px;
-font-size: 23px;
+padding:4px 10px;
+font-size: 20px;
 margin-left: 40px;
 margin-top: 3px;
 }
+
 .hot-line  .number{
     color: #2B3E90;
     font-size: 19px;
@@ -352,11 +351,6 @@ width: 450px;
 .login-section .main-content {
     padding-left: 12px;
     padding-right: 12px;
-}
-
-.login-section .access-btn{
-     padding-bottom:20px;
-    
 }
 
 .login-section .card-back .login-head{
@@ -676,7 +670,7 @@ font-family: 'roboto',sans-serif;
     color:#00B592;
     background-color: rgba(0,181,146,0.1);
     padding:2px 15px;
-    margin-left: 78px;
+    margin-left: 60px;
     margin-top: 8px;
     border-radius: 25px;
 }
@@ -704,10 +698,32 @@ font-family: 'roboto',sans-serif;
     margin-top: 20px;
 }
 
+.jui{
+    background-color: #2B3E90;
+    margin-top: 20px;
+}
+
+.jui .online-gallary{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color:#fff;
+    margin-top:15px;
+}
+
+
+.gallery{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color:#FFB013 !important;
+    margin-top:15px;
+}
+
 .popular-courses-section .viewers{
     font-size: 13px;
     font-family: 'rubik',sans-serif;
-    padding-left: 70px;
+    padding-left: 47px;
     margin-top:11px;
 }
 .popular-courses-section  .viewers-number{
