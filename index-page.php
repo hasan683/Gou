@@ -2,6 +2,7 @@
 
 
 <div class="banner">
+  <div class="container">
   <p class="text-1">
     Learn Something New
   </p>
@@ -10,7 +11,8 @@
   </p>
   <p class="text-3">It is a long established fact that a reader will be distracted by the there are many <br> cats and
     dog tuitorial series.</p>
-  <a href="register-page" class="btn text-white join-btn">Free Join Now</a>
+  <a href="register-page.php" class="btn text-white join-btn">Free Join Now</a>
+  </div>
 </div>
 <!-- <div class="container">
       <div class="card card-body bg-white shadow">
@@ -33,16 +35,16 @@
 			</a>
     </ul> -->
 <div class="container">
-  <div class="">
-    <div class="card card-body bg-white shadow" style="">
+  <div class="card-position">
+    <div class="card card-body bg-white shadow">
       <div class="row">
         <div class="col-sm-4">
           <div class="row">
             <div class="col-sm-2">
-              <img class="p-3" src="img/Group 1.png">
+              <img class="img p-2" src="img/course.png">
             </div>
             <div class="col-sm-9">
-              <h4>Online Course</h4>
+              <p class="course-card">Online Course</p>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
             </div>
           </div>
@@ -50,10 +52,10 @@
         <div class="col-sm-4">
           <div class="row">
             <div class="col-sm-2">
-              <img class="p-3" src="img/Group 1.png">
+              <img class="img2 p-2" src="img/course.png">
             </div>
             <div class="col-sm-9">
-              <h4>Online Course</h4>
+            <p class="course-card">Online Course</p>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
             </div>
           </div>
@@ -61,10 +63,10 @@
         <div class="col-sm-4">
           <div class="row">
             <div class="col-sm-2">
-              <img class="p-3" src="img/Group 1.png">
+              <img class="img3 p-2" src="img/course.png">
             </div>
             <div class="col-sm-9">
-              <h4>Online Course</h4>
+            <p class="course-card">Online Course</p>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
             </div>
           </div>
@@ -77,7 +79,7 @@
 
 
 
-<section class="popular-courses-section mt-3">
+<section class="popular-courses-section">
   <div class="container">
     <div class="row">
       <p class="title">Populer courses</p>
@@ -86,7 +88,7 @@
 
 
       <div class="col-sm-4">
-        <div class="card">
+        <div class="card populer-card">
           <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns=""
             role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
             <title>Placeholder</title>
@@ -98,21 +100,21 @@
 
           <!-- <img src="" class="card-img-top" alt="..."> -->
 
-          <div class="row">
-            <div class="col-sm-6">
+          <div class="row mt-2">
+            <div class="col-6 col-sm-6">
               <p class="text">Bio-stattistics</p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-6 col-sm-6">
               <a href="" class="btn price-btn">250 taka</a>
             </div>
           </div>
           <p class="text-2">How To Become Great Graphic <br>
             Designer in 7 Days</p>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-6 col-sm-6">
               <p class="star">*****</p>
             </div>
-            <div class="col-sm-6 viewers-number">
+            <div class="col-6 col-sm-6 viewers-number">
               <p class="viewers">2,526,471 views</p>
             </div>
           </div>
@@ -120,7 +122,7 @@
       </div>
 
       <div class="col-sm-4">
-        <div class="card">
+        <div class="card populer-card">
           <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns=""
             role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
             <title>Placeholder</title>
@@ -132,28 +134,28 @@
 
           <!-- <img src="" class="card-img-top" alt="..."> -->
 
-          <div class="row">
-            <div class="col-sm-6">
+          <div class="row mt-2">
+            <div class="col-6 col-sm-6">
               <p class="text">Oncology</p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-6 col-sm-6">
               <a href="" class="btn price-btn">500 taka</a>
             </div>
           </div>
           <p class="text-2">How To Become Great Graphic <br>
             Designer in 7 Days</p>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-6 col-sm-6">
               <p class="star">*****</p>
             </div>
-            <div class="col-sm-6 viewers-number">
+            <div class="col-6 col-sm-6 viewers-number">
               <p class="viewers">2,526,471 views</p>
             </div>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card">
+        <div class="card populer-card">
           <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns=""
             role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
             <title>Placeholder</title>
@@ -165,21 +167,21 @@
 
           <!-- <img src="" class="card-img-top" alt="..."> -->
 
-          <div class="row">
-            <div class="col-sm-6">
+          <div class="row mt-2">
+            <div class="col-6 col-sm-6">
               <p class="text">ENT</p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-6 col-sm-6">
               <a href="" class="btn price-btn">1000 taka</a>
             </div>
           </div>
           <p class="text-2">How To Become Great Graphic <br>
             Designer in 7 Days</p>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-6 col-sm-6">
               <p class="star">*****</p>
             </div>
-            <div class="col-sm-6 viewers-number">
+            <div class="col-6 col-sm-6 viewers-number">
               <p class="viewers">2,526,471 views</p>
             </div>
           </div>
@@ -191,11 +193,56 @@
 </section>
 
 
+
+
+
+
+
+<div class="bg-red">
+<div class="container">
+
+        <div class="all responsive">
+            <img class="cl-1" src="img/Mask2.png"alt="">
+            <img class="cl-1" src="img/Mask2.png"alt="">
+            <img class="cl-1" src="img/Mask2.png"alt="">
+            <img class="cl-1" src="img/Mask2.png"alt="">
+            <img class="cl-1" src="img/Mask2.png"alt="">
+            <img class="cl-1" src="img/Mask2.png"alt="">
+            <img class="cl-1" src="img/Mask2.png"alt="">
+            <img class="cl-1" src="img/Mask2.png"alt="">
+            <img class="cl-1" src="img/Mask2.png"alt="">
+           
+        </div>
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <section class="home-enroll-word mb-4">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <p class="text">Enroll Student <strong>feedback</strong></p>
+          <p class="text">Enroll Student's <strong>feedback</strong></p>
           <div class="card pr-4 shadow-sm mt-4">
             <div class="card-body">
               <div class="text-center img">

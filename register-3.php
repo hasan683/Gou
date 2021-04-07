@@ -99,17 +99,18 @@
                             </div>
                         </div>
                         <div class="d-flex flex-row justify-content-center mt-2">
-                            <div class="text">
+                            <div class="text1">
                                BMDC Type:
                             </div>
                             <div>
                                 <select class="form-select dropdown-input-3" aria-label="Default select example">
-                                    <option selected>select your BMDC</option>
+                                    <option selected>Enter your BMDC</option>
                                     <option value="1">Temporary</option>
                                     <option value="2">Permanent</option>
                                   
                                 </select>
                             </div>
+                            <i class="far fa-info-circle"></i>
                         </div>
                         
                         <a href="register-4.php" button type="button" class="btn update-btn">Update</a>
@@ -124,8 +125,7 @@
     </section>
 
 
-
-    <footer class="mt-5">
+    <footer >
         <div class="container top_footer py-3">
             <div class="lower_footer">
                 <div>
@@ -145,16 +145,14 @@
             </div>
         </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
-
     </script>
-    <Script defer src="https://use.fontawesome.com/releases/v5.o.6/js/all.js"></Script>
-
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.0.0/jquery.min.js"></script>
 </body>
 
 </html>

@@ -1,15 +1,28 @@
-<?php
+<html>
+  <head>
+  <title>My Now Amazing Webpage</title>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  </head>
+  <body>
 
+  <div class="your-class">
+    <div> <img class="your-class" src="img/mask.png"></div>
+    <div> <img class="your-class" src="img/mask.png"></div>
+    <div> <img class="your-class" src="img/mask.png"></div>
+  </div>
 
-$sum = 0;
-for ($i =1; $i <= 1000; $i+7) {
-    if($i2==0){
-    $sum += $i;
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+        setting-name: setting-value
+      });
+    });
+  </script>
 
-    }
-   
-}
-
-echo  $sum;
-?>
+  </body>
+</html>
