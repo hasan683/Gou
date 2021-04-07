@@ -198,7 +198,8 @@
 
 
 
-<div class="bg-red">
+<div class="jui">
+<p class="online-gallary">Online <strong class="gallery">Gallery</strong></p>
 <div class="container">
 
         <div class="all responsive">
