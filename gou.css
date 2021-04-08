@@ -190,6 +190,14 @@ padding-bottom: 8px;
     font-size: 16px;
     top:16px;
 }
+
+.main-content .fa-eye{
+    position:absolute;
+    left:7px;
+    font-size: 16px;
+    top:8px;
+}
+
 .main-content .icon-eye{
     position:absolute;
     right:40px;
@@ -698,26 +706,28 @@ font-family: 'roboto',sans-serif;
     margin-top: 20px;
 }
 
-.jui{
-    background-color: #2B3E90;
+.slider{
+    background-color: #005693;
     margin-top: 20px;
 }
 
-.jui .online-gallary{
+.slider .online-gallary{
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     color:#fff;
     margin-top:15px;
+    font-family: 'roboto',sans-serif;
 }
 
 
 .gallery{
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     color:#FFB013 !important;
     margin-top:15px;
+    font-family: 'roboto',sans-serif;
 }
 
 .popular-courses-section .viewers{
