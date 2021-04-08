@@ -1,28 +1,7 @@
-<html>
-  <head>
-  <title>My Now Amazing Webpage</title>
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-  </head>
-  <body>
+<?php 
 
-  <div class="your-class">
-    <div> <img class="your-class" src="img/mask.png"></div>
-    <div> <img class="your-class" src="img/mask.png"></div>
-    <div> <img class="your-class" src="img/mask.png"></div>
-  </div>
+for($i=0; $i<5; $i++){
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
-
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.your-class').slick({
-        setting-name: setting-value
-      });
-    });
-  </script>
-
-  </body>
-</html>
+}
+echo $i;
+?>

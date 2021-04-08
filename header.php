@@ -43,7 +43,7 @@
                         <a class="nav-link" href="about-page.php">About</a>
                     </li>
                     <li class="hot-line ms-lg-auto">
-                        <i class="icon fad fa-phone-plus pe-3"></i>
+                    <i class="fas fa-headset pe-3"></i>
                         <span class="number">Hot-Line:01404432536</span>
                     </li>
                     <li class="">

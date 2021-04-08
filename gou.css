@@ -37,6 +37,10 @@ li{
     font-family: 'roboto', sans-serif;
 }
 
+.top-section .hasan{
+    box-shadow: 10px 10px 5px;
+}
+
 .online-course .card {
 border-radius: 15px;
 padding-bottom: 8px;
@@ -161,13 +165,32 @@ padding-bottom: 8px;
  }
  .table-content .basic-information .text{
      font-weight: 600;
+     padding-top:2px;
+     padding-bottom: 2px; 
+
  }
 
+ .basic-information .text{
+     padding-bottom: 5px;
+ }
 
+.basic-information .text input{
+    padding-top: 2px;
+    padding-bottom: 2px;    
+}
  
- 
+ .infomation .text{  
+    padding-bottom: 5px; 
+    color:#2B3E90;
+ }
 
-
+ .infomation .text input{
+    padding-top:2px;
+    padding-bottom: 2px;   
+ }
+ .basic-information .input-file{
+     
+ } 
 
  .register-section .card-back{
      background-color:#fff;
@@ -191,11 +214,11 @@ padding-bottom: 8px;
     top:16px;
 }
 
-.main-content .fa-eye{
-    position:absolute;
-    left:7px;
-    font-size: 16px;
-    top:8px;
+.main-content .fa-eye {
+    position: absolute;
+    left: 5px;
+    font-size: 21px;
+    top: 5px;
 }
 
 .main-content .icon-eye{
@@ -209,20 +232,24 @@ padding-bottom: 8px;
 .main-content .terms-line{
     font-size: 18px;
 }
+
 .card .table-head{
     background-color: #2B3E90; 
     border-radius: 5px;
     color:white;   
 }
+
 .about-section .about-title{
     border-radius: 5px;
     background-color: #fff;
     margin-top: 25px;
     padding: 40px;
 }
+
 .footer .footer-content{
     background-color: #E5EDFF;
 }
+
 .footer .university-title{
     color:#2B3E90;   
 }
@@ -267,6 +294,7 @@ a{
 footer .lower_footer img{
     height: 60px;
 }
+
 footer .lower_footer .brand_text{
     font-size: 26px;
     padding-left: 30px;
@@ -287,26 +315,30 @@ footer .lower_footer .brand_text{
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
 }
+
 .main-menu .navbar-nav .hot-line{
     padding-left: 150px;
     margin-top: 8px;
 }
+
 .main-menu .navbar-nav .profile-btn{
     background-color:#2B3E90 ;
 color:white;
 padding:3px 17px;
 font-size: 18px;
 margin-left: 43px;
-margin-top: 8px;
+margin-top: 5px;
 }
+
 .main-menu .navbar-nav .sign-out-btn{
     color:#FFB013;
 border-radius:5px;
 padding:2px 11px;
 margin-left: 27px;
 font-size: 18px;
-margin-top: 7px;
+margin-top: 3px;
 }
+
 .main-menu .navbar-nav .login-btn{
     color:#2B3E90;
     border: 1px solid #707070;
@@ -325,11 +357,13 @@ font-size: 20px;
 margin-left: 40px;
 margin-top: 3px;
 }
-
+.fa-headset{
+    color: #2B3E90;
+}
 .hot-line  .number{
     color: #2B3E90;
-    font-size: 19px;
-    
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
 }
 .hot-line .icon{
     color: #2B3E90;
@@ -354,11 +388,17 @@ margin-top: 3px;
 }
 
 .login-section .card-back{
-width: 450px;
+width: 396px;
 }
-.login-section .main-content {
-    padding-left: 12px;
-    padding-right: 12px;
+
+.login-section .main-content{
+padding-right: 12px;
+padding-left: 12px;
+}
+
+.login-section .main-content input {
+   padding-top: 2px;
+   padding-bottom: 2px;
 }
 
 .login-section .card-back .login-head{
@@ -369,10 +409,12 @@ width: 450px;
     text-align: center;
     padding-bottom: 52px;
     padding-top: 38px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .login-section .card-back .Register-header{
   color:#B3B3B3;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .login-section .main-content .email{
@@ -380,44 +422,57 @@ width: 450px;
     font-size: 20px;
     opacity:45%;
 } 
+
 .login-section .main-content .password{
     height:42px;
     font-size: 20px;
     opacity:45%;
 }
-.login-section .main-content .text-end{
-    font-size: 15px;
+
+.login-section .main-content .text-end {
+    font-size: 17px;
+    margin-top: 5px;
+    font-family: 'Roboto',sans-serif;
 }
+
 .login-section .main-content .form-check{
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Ubuntu',sans-serif;
+    color: #545454;
 }
 .access-btn .register-btn{
     color: #FF9700;
     border-color: #FF9700;
     padding:2px 32px;
     margin-top:10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
+
 .main-content .access-btn .btn-login{
 background-color: #2B3E90;
 color:#fff;
 font-size:22px;
 padding:2px 50px;
+font-family: 'Ubuntu', sans-serif;
 }
+
 .main-content .access-btn .account{
     font-size:20px;
     color:#000000;
 }
+
 .register-section .card-back{
     width:450px;
 }
 .register-section .access-btn{
     padding-bottom:0px;
 }
+
 .register-section .main-content{
 padding-left:57px;
 padding-right:57px;
 }
+
 .register-section .card-back .login-head{
     color: #B3B3B3;
     margin-top:15px;
@@ -427,15 +482,18 @@ padding-right:57px;
     padding-bottom: 52px;
     padding-top: 38px;
 }
+
 .register-section .card-back .register-head{
     color: #2B3E90;
 }
+
 .register-section .main-content .all-access{
     height:42px;
     font-size: 20px;
     opacity:45%;
     padding-left: 32px;
 }
+
 .main-content .form-check{
     font-size:14px;
     font-family: 'Ubuntu',sans-serif;
@@ -458,12 +516,14 @@ padding-right:57px;
     font-size:18px;
     padding-left:30px;
     padding-right:30px;
+    font-family: 'Ubuntu',sans-serif;
+    margin-top: 19px;
 }
 .main-content .access-btn .log-btn{
     color: #FFB013;
     border-color: #FFB013;
     font-size:18px;
-   padding:2px 32px;
+   padding:2px 26px;
    margin-top:10px;
    margin-bottom:40px;
     
@@ -658,6 +718,9 @@ margin-top:30px;
 background-color:#FFB013 ;
 border-radius: 50px;
 margin-bottom: 300px;
+padding: 8px 32px;
+font-family: 'rubik',sans-serif;
+font-size: 18px;
 }
 
 .course-card{
@@ -665,6 +728,15 @@ font-size:30px;
 font-weight: bold;
 font-family: 'roboto',sans-serif;
 }
+
+.home-lorem{
+font-size: 15px;
+font-family: 'roboto',sans-serif;
+color: rgba(43,62,144,0.9);
+}
+.popular-courses-section .populer-card{
+border-radius: 25px;
+} 
 
 .popular-courses-section {
     margin-top: 80px;
@@ -685,25 +757,24 @@ font-family: 'roboto',sans-serif;
 .popular-courses-section .text-2{
     color: #475677;
     font-family: 'poppins',sans-serif;
-    font-size: 15px !important;
+    font-size: 18px !important;
     padding-left:20px;
-    margin-top: 10px;
+    margin-top: 28px;
 }
 .popular-courses-section .star{
     font-size:20px;
     color:#FFB013;
     padding-left:20px;
     font-size: 20px;
-    margin-top:10px;
-    
+    margin-top:25px;  
 }
 .popular-courses-section .title{
-     font-size: 23px;
+     font-size: 30px;
      color: #2B3E90;
      font-family: 'roboto',sans-serif;
      margin-bottom: 8px !important;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 .slider{
@@ -731,10 +802,11 @@ font-family: 'roboto',sans-serif;
 }
 
 .popular-courses-section .viewers{
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'rubik',sans-serif;
     padding-left: 47px;
-    margin-top:11px;
+    margin-top:26px;
+    padding-bottom: 28px;
 }
 .popular-courses-section  .viewers-number{
     position:relative;
@@ -756,7 +828,7 @@ font-family: 'roboto',sans-serif;
 }
 
 .home-enroll-word .btn-lg{
-    padding: 0px 25px;
+    padding: 11px 54px;
     color:#475677;
     font-size: 15px;
     font-family: 'rubik',sans-serif;
@@ -772,7 +844,7 @@ font-family: 'roboto',sans-serif;
 }
 .home-enroll-word .text{
     color:#293B5F;
-    font-size: 18px;
+    font-size: 36px;
     font-family: 'poppins',sans-serif;
     margin-top: 5px;
     font-weight: 500;
@@ -782,8 +854,13 @@ font-family: 'roboto',sans-serif;
 .home-enroll-word .title{
     font-size: 13px;
     font-family: 'poppins',sans-serif;
-
 } 
+
+.home-enroll-word  .card{
+    background-color: rgba(255,255,255,0.15);
+    opacity: 50%;
+}
+
 .card-position{
     position: relative;
 }

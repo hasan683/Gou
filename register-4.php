@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="gou.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Genesis Online University</title>
 
 </head>
@@ -41,7 +42,7 @@
                         <a class="nav-link" href="about-page.php">About</a>
                     </li>
                     <li class="hot-line ms-lg-auto">
-                        <i class="icon fad fa-phone-plus pe-3"></i>
+                    <i class="fas fa-headset pe-3"></i>
                         <span class="number">Hot-Line:01404432536</span>
                     </li>
                     <li class="">
@@ -72,7 +73,7 @@
                         <label class="form-check-label" for="exampleCheck1">Medical graduate
                         </label>
                         <hr class="border-2">
-                        <div class="d-flex flex-row justify-content-center">
+                        <div class="d-flex flex-row justify-content-center gf">
                             <div class="text">
                                 Medical Collage:
                             </div>
@@ -123,7 +124,7 @@
     </div>
     </section>
 
-
+</div>
     <footer >
         <div class="container top_footer py-3">
             <div class="lower_footer">
@@ -145,13 +146,27 @@
         </div>
     </footer>
 
+
+<script>
+$(document).ready(function(){
+  $(".checkbox-1").click(function(){
+    $(".gf").hide();
+  });
+  
+});
+</script>
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
-    </script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.0.0/jquery.min.js"></script>
+    </script> 
+     
+
+
+
 </body>
 
 </html>
