@@ -45,7 +45,7 @@
             </div>
             <div class="col-sm-9">
               <p class="course-card">Online Course</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
+              <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@
             </div>
             <div class="col-sm-9">
               <p class="course-card">Online Course</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
+              <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@
             </div>
             <div class="col-sm-9">
               <p class="course-card">Online Course</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
+              <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@
 
       <div class="col-sm-4">
         <div class="card populer-card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="" role="img"
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="279" xmlns="" role="img"
             aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">
@@ -112,7 +112,13 @@
             Designer in 7 Days</p>
           <div class="row">
             <div class="col-6 col-sm-6">
-              <p class="star">*****</p>
+            <p class="star">
+                <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </p>
             </div>
             <div class="col-6 col-sm-6 viewers-number">
               <p class="viewers">2,526,471 views</p>
@@ -123,7 +129,7 @@
 
       <div class="col-sm-4">
         <div class="card populer-card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="" role="img"
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="279" xmlns="" role="img"
             aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">
@@ -146,7 +152,13 @@
             Designer in 7 Days</p>
           <div class="row">
             <div class="col-6 col-sm-6">
-              <p class="star">*****</p>
+              <p class="star">
+                <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </p>
             </div>
             <div class="col-6 col-sm-6 viewers-number">
               <p class="viewers">2,526,471 views</p>
@@ -156,7 +168,7 @@
       </div>
       <div class="col-sm-4">
         <div class="card populer-card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="" role="img"
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="279" xmlns="" role="img"
             aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">
@@ -179,7 +191,13 @@
             Designer in 7 Days</p>
           <div class="row">
             <div class="col-6 col-sm-6">
-              <p class="star">*****</p>
+            <p class="star">
+                <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </p>
             </div>
             <div class="col-6 col-sm-6 viewers-number">
               <p class="viewers">2,526,471 views</p>

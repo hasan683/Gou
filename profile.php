@@ -18,14 +18,14 @@
                         </li>
                         <li class="msi-my-1 nav-item">
                             <a class="nav-link w-100 msi-dark ps-3" href="profile-1-page.php">
-                                <i class="fas fa-columns"></i>
+                            <i class="fas fa-user"></i>
                                 <span class="ps-3">Profile</span>
                             </a>
                         </li>
                         </li>
                         <li class="msi-my-1 nav-item">
                             <a class="nav-link w-100 msi-dark ps-3" href="my-courses.php">
-                                <i class="fas fa-columns"></i>
+                            <i class="fas fa-book-reader"></i>
                                 <span class="ps-3">Courses</span>
                             </a>
                         </li>

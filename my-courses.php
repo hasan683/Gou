@@ -65,7 +65,7 @@
             <section class="top-section">
                 <div class="row">
                     <div class="col-12">
-                        <div class="card shadow">
+                        <div class="card shadow-sm hasan">
                             <div class="card-body">
                                 <p class="card-title">My Courses</p>
                             </div>
@@ -75,7 +75,7 @@
             </section>
             <div class="row">
                 <div class="col-lg-6 mt-4 online-course">
-                    <div class="card shadow text-center">
+                    <div class="card shadow-sm text-center">
                       
                             <ul class="mt-3">
                                 <li class="card-title">Online Course Name:1</li>

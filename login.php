@@ -43,7 +43,7 @@
                         <a class="nav-link" href="about-page.php">About</a>
                     </li>
                     <li class="hot-line ms-lg-auto">
-                        <i class="icon fad fa-phone-plus pe-3"></i>
+                       <i class="fas fa-headset pe-3"></i>
                         <span class="number">Hot-Line:01404432536</span>
                     </li>
                     <li class="">
@@ -60,7 +60,7 @@
 
         <section class="login-section pt-4">
             <div class="row mx-0 justify-content-center">
-                <div class="col-md-9 card-back px-5 shadow">
+                <div class="col-md-9 card-back shadow">
                     <p class="login-head"><u>Login</u><span class="Register-header ms-3"><u>Register</u></span></p>
                     <div class="main-content">
                         <form>
