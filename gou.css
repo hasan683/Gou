@@ -461,16 +461,19 @@ font-family: 'Ubuntu', sans-serif;
     color:#000000;
 }
 
+.edit-btn{
+    background-color:#2B3E90;
+}
 .register-section .card-back{
-    width:450px;
+    width: 396px;
 }
 .register-section .access-btn{
     padding-bottom:0px;
 }
 
 .register-section .main-content{
-padding-left:57px;
-padding-right:57px;
+padding-left:12px;
+padding-right:12px;
 }
 
 .register-section .card-back .login-head{
@@ -481,6 +484,7 @@ padding-right:57px;
     text-align: center;
     padding-bottom: 52px;
     padding-top: 38px;
+    font-family: 'Ubuntu',sans-serif;
 }
 
 .register-section .card-back .register-head{
@@ -500,8 +504,8 @@ padding-right:57px;
 }
 
 .main-content .form-check .agree-access {
-    padding-left: 7px;
-    font-size: 13px;
+    padding-left: 2px;
+    font-size: 15px;
 }
 .register-section .access-btn .reg-btn{
     background-color:#2B3E90;

@@ -192,7 +192,7 @@
                             </tr>
                         </table>
 
-                        <a href="edit-profile.php" button class="btn btn-primary mt-4" type="submit">Edit <i
+                        <a href="edit-profile.php" button class="btn edit-btn mt-4" type="submit">Edit <i
                                 class="fa fa-pencil ps-3" aria-hidden="true"></i></a>
 
                     </div>
