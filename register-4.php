@@ -11,7 +11,8 @@
     <link rel="stylesheet" type="text/css" href="gou.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
     <title>Genesis Online University</title>
 
 </head>
@@ -73,7 +74,8 @@
                         <label class="form-check-label" for="exampleCheck1">Medical graduate
                         </label>
                         <hr class="border-2">
-                        <div class="d-flex flex-row justify-content-center gf">
+                        <div class="er">
+                        <div class="d-flex flex-row justify-content-center">
                             <div class="text">
                                 Medical Collage:
                             </div>
@@ -99,6 +101,7 @@
                                 </select>
                             </div>
                         </div>
+</div>
                         <div class="d-flex flex-row justify-content-center mt-2">
                             <div class="text">
                                BMDC Type:
@@ -113,18 +116,21 @@
                             </div>
                             <i class="far fa-info-circle"></i>
                         </div>
+
+
                         <a href="index-page.php" button type="button" class="btn update-btn">Update</a>
                     </div>
                 </div>
             </div>
 
-
+            
 
     </div>
     </div>
     </section>
 
 </div>
+
     <footer >
         <div class="container top_footer py-3">
             <div class="lower_footer">
@@ -146,25 +152,61 @@
         </div>
     </footer>
 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<script>
+<script> 
 $(document).ready(function(){
   $(".checkbox-1").click(function(){
-    $(".gf").hide();
+    $(".er").hide();
   });
-  
+  $(".checkbox-1").click(function(){
+  $(".er").slideToggle("slow");
+  });
 });
 </script>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+<!-- <script> 
+$(document).ready(function(){
+  $(".checkbox-1").click(function(){
+    $(".er").hide();
+  });
+  $(".checkbox-1").click(function(){
+    $(".er").show();
+  });
+});
+</script>
+     -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    </script> 
+      -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
-    </script> 
-     
+    </script>
 
+    <script>
+  var exampleModal = document.getElementById('exampleModal')
+exampleModal.addEventListener('show.bs.modal', function (event) {
+  // Button that triggered the modal
+  var button = event.relatedTarget
+  // Extract info from data-bs-* attributes
+  var recipient = button.getAttribute('data-bs-whatever')
+  // If necessary, you could initiate an AJAX request here
+  // and then do the updating in a callback.
+  //
+  // Update the modal's content.
+  var modalTitle = exampleModal.querySelector('.modal-title')
+  var modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+  modalTitle.textContent = 'New message to ' + recipient
+  modalBodyInput.value = recipient
+})
+</script>
 
 
 </body>
