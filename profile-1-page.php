@@ -69,15 +69,28 @@
                         <p class="card-text">BMDC:A123456</p>
                     </div>
                     <ul class="nav-list">
-                        <li class="msi-my-1 nav-item active">
+                    <li class="msi-my-1 nav-item rounded  {{ Request::segment(1)=='dashboard'?'active':'' }}">
+                       
+                       <a class="nav-link w-100 msi-dark ps-3"  href="{{ url('dashboard') }}"> 
+                           <i class="fas fa-columns"></i>
+                           <span class="ps-3">Dashboard</span>
+                       </a>
+                   </li>
+               <li class="msi-my-1 nav-item {{ Request::segment(1)=='my-profile'?'active':'' }}">
+                       <a class="nav-link w-100 msi-dark ps-3"  href="{{ url('my-profile') }}">
+                           <i class="fas fa-columns"></i>
+                           <span class="ps-3">My Profile</span>
+                       </a>
+                   </li>
+                        <li class="msi-my-1 nav-item">
 
                             <a class="nav-link w-100 msi-dark ps-3" href="profile.php">
                                 <i class="fas fa-columns"></i>
                                 <span class="ps-3">Course Dashboard</span>
                             </a>
                         </li>
-                        <li class="msi-my-1 nav-item">
-                            <a class="nav-link w-100 msi-dark ps-3" href="profile-1-page.php">
+                        <li class="msi-my-1 nav-item  Request::segment(1)=='profile-1-page'?'active':''">
+                            <a class="nav-link w-100 msi-dark ps-3" href="profile-1-page">
                                 <i class="fas fa-columns"></i>
                                 <span class="ps-3">Profile</span>
                             </a>
