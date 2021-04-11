@@ -7,51 +7,64 @@
                         <p class="card-text">BMDC:A123456</p>
                     </div>
                     <ul class="nav-list">
-                        <li class="msi-my-1 nav-item active">
+                   
+                   <?php
+                     $actual_link = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
+
+                   ?>
+               <!-- <li class="msi-my-1 nav-item <?php echo ($actual_link=='http://localhost/gou/profile-1-page.php')?'active':'' ?>">
+                       <a class="nav-link w-100 msi-dark ps-3"  href="{{ url('my-profile') }}">
+                           <i class="fas fa-columns"></i>
+                           <span class="ps-3">My Profile</span>
+                       </a>
+                   </li> -->
+                        <li class="msi-my-1 nav-item  <?php echo ($actual_link=='http://localhost/gou/profile.php')?'active':'' ?>">
+
                             <a class="nav-link w-100 msi-dark ps-3" href="profile.php">
                                 <i class="fas fa-columns"></i>
                                 <span class="ps-3">Course Dashboard</span>
                             </a>
                         </li>
-                        <li class="msi-my-1 nav-item">
+                        <li class="msi-my-1 nav-item   <?php echo ($actual_link=='http://localhost/gou/profile-1-page.php')?'active':'' ?>">
                             <a class="nav-link w-100 msi-dark ps-3" href="profile-1-page.php">
-                            <i class="fas fa-user"></i>
+                                <i class="fas fa-columns"></i>
                                 <span class="ps-3">Profile</span>
                             </a>
                         </li>
                         </li>
-                        <li class="msi-my-1 nav-item">
+                        <li class="msi-my-1 nav-item  <?php echo ($actual_link=='http://localhost/gou/my-courses.php')?'active':'' ?>">
                             <a class="nav-link w-100 msi-dark ps-3" href="my-courses.php">
-                            <i class="fas fa-book-reader"></i>
+                                <i class="fas fa-columns"></i>
                                 <span class="ps-3">Courses</span>
                             </a>
                         </li>
-                        <li class="msi-my-1 nav-item">
+                        <li class="msi-my-1 nav-item  <?php echo ($actual_link=='http://localhost/gou/my-exams.php')?'active':'' ?>">
                             <a class="nav-link w-100 msi-dark ps-3" href="my-exams.php">
                                 <i class="fas fa-columns"></i>
                                 <span class="ps-3">Exams</span>
                             </a>
                         </li>
-                        <li class="msi-my-1 nav-item">
+                        <li class="msi-my-1 nav-item  <?php echo ($actual_link=='http://localhost/gou/my-payments.php')?'active':'' ?>">
                             <a class="nav-link w-100 msi-dark ps-3" href="my-payments.php">
                                 <i class="fas fa-columns"></i>
                                 <span class="ps-3">Payments</span>
                             </a>
                         </li>
-                        <li class="msi-my-1 nav-item">
+                        <li class="msi-my-1 nav-item  <?php echo ($actual_link=='http://localhost/gou/my-payments1.php')?'active':'' ?>">
                             <a class="nav-link w-100 msi-dark ps-3" href="my-payments1.php">
                                 <i class="fas fa-columns"></i>
                                 <span class="ps-3">Certificates</span>
                             </a>
                         </li>
 
-                        <li class="msi-my-1 nav-item">
+                        <li class="msi-my-1 nav-item  <?php echo ($actual_link=='http://localhost/gou/login.php')?'active':'' ?>">
                             <a class="nav-link w-100 msi-dark ps-3" href="login.php">
                                 <i class="fas fa-columns"></i>
                                 <span class="ps-3">sign Out</span>
                             </a>
                         </li>
                     </ul>
+
                 </div>
             </div>
         </div>

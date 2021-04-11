@@ -491,6 +491,10 @@ padding-right:12px;
     color: #2B3E90;
 }
 
+.er{
+display:none;
+}
+
 .register-section .main-content .all-access{
     height:42px;
     font-size: 20px;
@@ -580,7 +584,7 @@ border-radius: 10px;
 }
 /* welcome-page */
 
-.welcome-page .card .card-title{
+/* .welcome-page .card .card-title{
     color:#FFB013;
     font-weight: bold;
     font-size: 29px;
@@ -594,7 +598,72 @@ border-radius: 10px;
     color:#E45454;
     font-size: 17px;
     font-family: 'roboto',sans-serif;
+} */
+
+
+/* .welcome .title-1{
+    color: #FFB013;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
 }
+
+.welcome .title-2 {
+    color: #2B3E90;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+.welcome .text {
+    color: #e45454;
+    font-size: 17px;
+    font-weight: 400;
+  
+}
+.welcome::after {
+    content: "";
+    position: relative;
+    border-bottom: 1px solid #0f77b7;
+    width: 50%;
+    margin-top: 40px;
+} */
+.welcome  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #0f77b7;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.welcome .title-1{
+    color: #FFB013;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.welcome .title-2 {
+    color: #2B3E90;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+.welcome .text1 {
+    color: #e45454;
+    font-size: 17px;
+    font-weight: 400;
+  
+}
+.welcome::after {
+    content: "";
+    position: relative;
+    border-bottom: 1px solid #0f77b7;
+    width: 50%;
+    margin-top: 40px;
+}
+
 
 .border-1{
     margin-left: 343px;
@@ -638,7 +707,7 @@ border-radius: 10px;
      font-family: 'roboto',sans-serif;
  }
 
- .dropdown-input{
+ /* .dropdown-input{
     margin-left:20px;
     width:270px;
     padding-top: 2px;
@@ -650,14 +719,8 @@ border-radius: 10px;
     width:270px;
     padding-top: 2px;
     padding-bottom:2px;
- }
+ } */
 
- .dropdown-input-3{
-    margin-left:46px;
-    width:271px;
-    padding-top: 2px;
-    padding-bottom:2px;
- }
 
  .update-btn{
     background-color: #0F77B7;
@@ -889,3 +952,16 @@ border-radius: 25px;
     border-radius: 50%;
     margin-top:20px;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+

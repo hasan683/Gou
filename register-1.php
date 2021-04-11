@@ -73,7 +73,7 @@
                 </label>
                 </div>
                 <hr class="border-2">
-                <a href="register-2.php" button type="button" class="btn update-btn">Update</a>
+              
             </div>
             
         </div>
