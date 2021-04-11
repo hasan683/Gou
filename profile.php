@@ -3,7 +3,12 @@
 
 <div class="container">
     <div class="row">
-        @include('side_bar')
+
+
+    <?php include 'side_bar.php';?>
+       
+
+
 
         <div class="col-sm-8 mt-4">
             <section class="profile-head">

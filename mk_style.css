@@ -1,0 +1,160 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+
+ .welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #0f77b7;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.checkbox::after {
+    content: "";
+    position: relative;
+    border-bottom: 1px solid #0f77b7;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cb2 {
+    margin-left: -13px;
+    padding: 20p !important;
+}
+
+#a-div {
+    display: none;
+    margin-left: 24%;
+    margin-right: -26%;
+    min-height: 100vh;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-content1 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 11px;
+}
+
+.control-label {
+    margin-top: 11px !important;
+}
+
+.select2 {
+    width: 80% !important;
+    padding: 0.2rem 0.7rem !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: none !important;
+    border-radius: 0.25rem !important;
+}
+
+.select2-container--default, .select2-selection--single {
+    border: none !important;
+}
+.select2 {
+    width: 80% !important;
+    padding: 0.2rem 0.7rem !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: none !important;
+    border-radius: 0.25rem !important;
+}
+
+.select2-container--default, .select2-selection--single {
+    border: none !important;
+}
+.select2 {
+    width: 80% !important;
+    padding: 0.2rem 0.7rem !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: none !important;
+    border-radius: 0.25rem !important;
+}
+
+.control-label {
+    margin-top: 11px !important;
+}
+
+.form-content1 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 11px;
+} */
+
+
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cb2 {
+    margin-left: -13px;
+    padding: 20p !important;
+}
+.checkbox::after {
+    content: "";
+    position: relative;
+    border-bottom: 1px solid #0f77b7;
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

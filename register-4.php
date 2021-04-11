@@ -3,8 +3,9 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="responsive.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   
+
     <title>Genesis Online University</title>
 
 </head>
@@ -43,7 +44,7 @@
                         <a class="nav-link" href="about-page.php">About</a>
                     </li>
                     <li class="hot-line ms-lg-auto">
-                    <i class="fas fa-headset pe-3"></i>
+                        <i class="fas fa-headset pe-3"></i>
                         <span class="number">Hot-Line:01404432536</span>
                     </li>
                     <li class="">
@@ -65,53 +66,53 @@
                     <p class="card-text1">please input your academic information</p>
                     <hr class="border-1">
                     <div class="checkbox-1">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" class="form-check-input" id="student">
                         <label class="form-check-label" for="exampleCheck1">Medical Student
                         </label>
                     </div>
                     <div class="checkbox-2">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" class="form-check-input" id="graduate">
                         <label class="form-check-label" for="exampleCheck1">Medical graduate
                         </label>
                         <hr class="border-2">
                         <div class="er">
-                        <div class="d-flex flex-row justify-content-center">
-                            <div class="text">
-                                Medical Collage:
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="text">
+                                    Medical Collage:
+                                </div>
+                                <div>
+                                    <select class="form-select dropdown-input" aria-label="Default select example">
+                                        <option selected>select your university</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div>
-                                <select class="form-select dropdown-input" aria-label="Default select example">
-                                    <option selected>select your university</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
+                            <div class="d-flex flex-row justify-content-center mt-2">
+                                <div class="text">
+                                    Admission year:
+                                </div>
+                                <div>
+                                    <select class="form-select dropdown-input-2" aria-label="Default select example">
+                                        <option selected>select your university</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class="d-flex flex-row justify-content-center mt-2">
                             <div class="text">
-                                Admission year:
-                            </div>
-                            <div>
-                                <select class="form-select dropdown-input-2" aria-label="Default select example">
-                                    <option selected>select your university</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                        </div>
-</div>
-                        <div class="d-flex flex-row justify-content-center mt-2">
-                            <div class="text">
-                               BMDC Type:
+                                BMDC Type:
                             </div>
                             <div>
                                 <select class="form-select dropdown-input-3" aria-label="Default select example">
                                     <option selected>Enter your BMDC</option>
                                     <option value="1">Temporary</option>
                                     <option value="2">Permanent</option>
-                                  
+
                                 </select>
                             </div>
                             <i class="far fa-info-circle"></i>
@@ -123,15 +124,15 @@
                 </div>
             </div>
 
-            
+
 
     </div>
     </div>
     </section>
 
-</div>
+    </div>
 
-    <footer >
+    <footer>
         <div class="container top_footer py-3">
             <div class="lower_footer">
                 <div>
@@ -152,36 +153,31 @@
         </div>
     </footer>
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+<!-- 
+    <script>
+        document.querySelector('.checkbox-1')
+            .onclick = function () {
+                document.getElementById('navbarSupportedContent').classList.toggle('navbarSupportedContent')
+            }
+    </script> -->
 
 <script> 
 $(document).ready(function(){
-  $(".checkbox-1").click(function(){
-    $(".er").hide();
-  });
+
   $(".checkbox-1").click(function(){
   $(".er").slideToggle("slow");
   });
 });
 </script>
 
-<!-- <script> 
-$(document).ready(function(){
-  $(".checkbox-1").click(function(){
-    $(".er").hide();
-  });
-  $(".checkbox-1").click(function(){
-    $(".er").show();
-  });
-});
-</script>
-     -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
     </script> 
-      -->
+      
+ 
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
     </script>
@@ -189,25 +185,7 @@ $(document).ready(function(){
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
     </script>
 
-    <script>
-  var exampleModal = document.getElementById('exampleModal')
-exampleModal.addEventListener('show.bs.modal', function (event) {
-  // Button that triggered the modal
-  var button = event.relatedTarget
-  // Extract info from data-bs-* attributes
-  var recipient = button.getAttribute('data-bs-whatever')
-  // If necessary, you could initiate an AJAX request here
-  // and then do the updating in a callback.
-  //
-  // Update the modal's content.
-  var modalTitle = exampleModal.querySelector('.modal-title')
-  var modalBodyInput = exampleModal.querySelector('.modal-body input')
-
-  modalTitle.textContent = 'New message to ' + recipient
-  modalBodyInput.value = recipient
-})
-</script>
-
+    
 
 </body>
 
