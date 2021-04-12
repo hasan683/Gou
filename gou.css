@@ -664,6 +664,65 @@ border-radius: 10px;
     margin-top: 40px;
 }
 
+.graduate-radio{
+    margin-left: -9px;
+    padding: 20p !important;
+}
+
+.control-label{
+padding-left: 65px;
+margin-top: 10px !important;
+}
+
+.btn-update{
+    background-color: #0F77B7;
+    font-size:17px;
+    font-weight: bold;
+   padding:1px 32px;
+   margin-left: 1% !important;
+   
+ }
+
+ .btn-update:hover{
+    color:white;
+}
+ 
+
+#student {
+    display: none;
+    margin-left: 24%;
+    margin-right: -26%;
+    
+}
+
+#graduate {
+    display: none;
+    margin-left: 24%;
+    margin-right: -26%;
+}
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.checkbox::after {
+    content: "";
+    position: relative;
+    border-bottom: 1px solid #0f77b7;
+    width: 50%;
+    margin-top: 20px;
+}
+
 
 .border-1{
     margin-left: 343px;
@@ -722,15 +781,7 @@ border-radius: 10px;
  } */
 
 
- .update-btn{
-    background-color: #0F77B7;
-    font-size:17px;
-    font-weight: bold;
-   padding:1px 32px;
-   margin-top:20px;
-   margin-bottom:40px;
- }
- 
+
  .d-flex{
 position:relative;
  }
@@ -740,9 +791,7 @@ position:relative;
       margin-left: 450px;
       
  }
- .update-btn:hover{
-     color:white;
- }
+ 
  /* home -page */
 
  .banner{
@@ -902,6 +951,7 @@ border-radius: 25px;
     border-color: #475677;
     border-radius: 50px;
     margin-top: 7px;
+    margin-left: 364px;
 }
 
 .home-enroll-word .card-title{

@@ -87,13 +87,27 @@
        
         margin-top: 16px;
     }
-   
-    .welcome-page .card .card-text {
-        font-size: 19px;
+    .welcome .title-1 {    
+        font-size: 19px;    
     }
-    .welcome-page .card .card-text1 {
-        font-size: 14px;
+
+    .welcome .title-2 {
+        font-size: 19px;    
     }
+
+    .welcome .text1 {
+        font-size: 13px; 
+    }
+    #student {
+       
+        min-height: 100vh;
+    }
+    
+    #graduate {
+
+        min-height: 100vh;
+    }
+    
     .main-menu .navbar-nav .login-btn {
         margin-top: 13px;
         margin-bottom: 14px;
@@ -124,6 +138,26 @@
     .card-position .card {
         bottom: -329px;
     }
+
+
+    .home-enroll-word .text {
+       
+        font-size: 17px;
+      
+    }
+
+   
+.home-enroll-word .btn-lg {
+    padding: 11px 54px;
+    color: #475677;
+    font-size: 6px;
+    font-family: 'rubik',sans-serif;
+    border-color: #475677;
+    border-radius: 50px;
+    margin-top: 7px;
+    
+}
+
     .login-section .main-content .form-check {
         font-size: 15px;
     }

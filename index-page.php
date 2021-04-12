@@ -45,7 +45,8 @@
             </div>
             <div class="col-sm-9">
               <p class="course-card">Online Course</p>
-              <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
+              <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem,
+                Ipsum has been</p>
             </div>
           </div>
         </div>
@@ -56,7 +57,8 @@
             </div>
             <div class="col-sm-9">
               <p class="course-card">Online Course</p>
-              <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
+              <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem,
+                Ipsum has been</p>
             </div>
           </div>
         </div>
@@ -67,7 +69,8 @@
             </div>
             <div class="col-sm-9">
               <p class="course-card">Online Course</p>
-              <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</p>
+              <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem,
+                Ipsum has been</p>
             </div>
           </div>
         </div>
@@ -112,13 +115,13 @@
             Designer in 7 Days</p>
           <div class="row">
             <div class="col-6 col-sm-6">
-            <p class="star">
+              <p class="star">
                 <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </p>
             </div>
             <div class="col-6 col-sm-6 viewers-number">
               <p class="viewers">2,526,471 views</p>
@@ -154,11 +157,11 @@
             <div class="col-6 col-sm-6">
               <p class="star">
                 <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </p>
             </div>
             <div class="col-6 col-sm-6 viewers-number">
               <p class="viewers">2,526,471 views</p>
@@ -191,13 +194,13 @@
             Designer in 7 Days</p>
           <div class="row">
             <div class="col-6 col-sm-6">
-            <p class="star">
+              <p class="star">
                 <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </p>
             </div>
             <div class="col-6 col-sm-6 viewers-number">
               <p class="viewers">2,526,471 views</p>
@@ -222,14 +225,28 @@
       <img class="cl-1" src="img/Mask2.png" alt="">
       <img class="cl-1" src="img/Mask2.png" alt="">
       <img class="cl-1" src="img/Mask2.png" alt="">
+      <img class="cl-1" src="img/Mask2.png" alt="">
+      <img class="cl-1" src="img/Mask2.png" alt="">
+      <img class="cl-1" src="img/Mask2.png" alt="">
+      <img class="cl-1" src="img/Mask2.png" alt="">
+      <img class="cl-1" src="img/Mask2.png" alt="">
     </div>
   </div>
 </div>
 <section class="home-enroll-word mb-4">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-6 col-sm-6">
         <p class="text">Enroll Student's <strong>feedback</strong></p>
+
+      </div>
+      <div class="col-6 col-sm-6">
+
+        <button type="button" class="btn btn-lg">View More</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
         <div class="card pr-4 shadow-sm mt-4">
           <div class="card-body">
             <div class="text-center img">
@@ -246,31 +263,29 @@
             <p class="text-center title">MBBS,BCS</p>
           </div>
         </div>
-      </div>
-
-      <div class="col-sm-6 text-end">
-        <button type="button" class="btn btn-lg">View More</button>
-        <div class="card  shadow-sm mt-4">
-          <div class="card-body">
-            <div class="text-center">
-              <img src="img/path 1096.png">
-              <img src="img/path 1096.png">
+</div>
+        <div class="col-sm-6">
+          <div class="card  shadow-sm mt-4">
+            <div class="card-body">
+              <div class="text-center">
+                <img src="img/path 1096.png">
+                <img src="img/path 1096.png">
+              </div>
+              <p class="card-title text-center">it has survived not only five centuries.but also the leap into
+                electronic
+                tyepsetting.remaining essentially unchanged.it was popularised in the 1960s with the race</p>
+              <div class="img-home text-center">
+                <img src="img/mask.png">
+              </div>
+              <p class="text-center text">Dr Abdullah</p>
+              <p class="text-center title">MBBS,BCS</p>
             </div>
-            <p class="card-title text-center">it has survived not only five centuries.but also the leap into
-              electronic
-              tyepsetting.remaining essentially unchanged.it was popularised in the 1960s with the race</p>
-            <div class="img-home text-center">
-              <img src="img/mask.png">
-            </div>
-            <p class="text-center text">Dr Abdullah</p>
-            <p class="text-center title">MBBS,BCS</p>
           </div>
+
         </div>
-      </div>
+
+      
     </div>
-  </div>
-  </div>
-  </div>
 </section>
 <!-- <div class="container">
   <div class="row">
@@ -317,5 +332,3 @@
 
 
 <?php include 'footer.php';?>
-
-
