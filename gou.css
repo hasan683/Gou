@@ -45,7 +45,10 @@ li{
 border-radius: 15px;
 padding-bottom: 8px;
 }
-
+/* 
+.card:hover{
+    box-shadow: 0 50px 80px red;
+} */
 .online-course .card .card-title{
     color: #2B3E90;
     font-size: 25px;

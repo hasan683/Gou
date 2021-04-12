@@ -16,7 +16,7 @@
                 </section>
                     <div class="row">
                     <div class="col-lg-6 mt-4 online-course">
-                            <div class="card shadow text-center">
+                            <div class="card shadow text-center vanilla-card">
                             <ul class="mt-3">
                                 <li class="card-title">Online Course Name:1</li>
                                 <li class="card-text">Duration:3 Months</li>
@@ -35,4 +35,7 @@
             </div>
         </div>
     </div>
+   
+	
+   
     <?php include 'footer.php';?>
