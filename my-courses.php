@@ -18,7 +18,7 @@
             </section>
             <div class="row">
                 <div class="col-lg-6 mt-4 online-course">
-                    <div class="card shadow-sm text-center">
+                    <div class="card shadow-sm text-center vanilla-card">
                       
                             <ul class="mt-3">
                                 <li class="card-title">Online Course Name:1</li>
