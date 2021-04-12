@@ -87,7 +87,7 @@
                             </label>
                         </div>
                         <div class="text-center access-btn">
-                        <a href="register-1.php" button type="submit" class="btn reg-btn">Register</a>
+                        <a href="register-5.php" button type="submit" class="btn reg-btn">Register</a>
                         <p class="fst-italic mt-2">Already have an account ?</p>
                         <a href="login.php" button type="button" class="btn log-btn">Login Now</a>
                         </div>
