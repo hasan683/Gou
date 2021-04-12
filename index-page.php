@@ -40,10 +40,10 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="row">
-            <div class="col-sm-2">
+            <div class="col-2 col-sm-2">
               <img class="img p-2" src="img/course.png">
             </div>
-            <div class="col-sm-9">
+            <div class="col-9 col-sm-9">
               <p class="course-card">Online Course</p>
               <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem,
                 Ipsum has been</p>
@@ -52,10 +52,10 @@
         </div>
         <div class="col-sm-4">
           <div class="row">
-            <div class="col-sm-2">
+            <div class="col-2 col-sm-2">
               <img class="img2 p-2" src="img/course.png">
             </div>
-            <div class="col-sm-9">
+            <div class="col-9 col-sm-9">
               <p class="course-card">Online Course</p>
               <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem,
                 Ipsum has been</p>
@@ -64,10 +64,10 @@
         </div>
         <div class="col-sm-4">
           <div class="row">
-            <div class="col-sm-2">
+            <div class="col-2 col-sm-2">
               <img class="img3 p-2" src="img/course.png">
             </div>
-            <div class="col-sm-9">
+            <div class="col-9 col-sm-9">
               <p class="course-card">Online Course</p>
               <p class="home-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem,
                 Ipsum has been</p>
@@ -240,9 +240,9 @@
         <p class="text">Enroll Student's <strong>feedback</strong></p>
 
       </div>
-      <div class="col-6 col-sm-6">
+      <div class="col-6 col-sm-6 text-end">
 
-        <button type="button" class="btn btn-lg">View More</button>
+        <button type="button" class="btn btn-lg ">View More</button>
       </div>
     </div>
     <div class="row">

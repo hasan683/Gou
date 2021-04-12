@@ -65,11 +65,16 @@
         margin-left: 28px;
         font-size: 13px;
     }
-    .fa-info-circle {
-        
-        top: 4px;
-        margin-left: 296px;
-    }
+  
+        .fa-info-circle {       
+            margin-left: 193px;
+            top: 406px;    
+        }
+
+        .btn-update {
+            margin-left: -18% !important;
+        }
+    
 
      .banner .text-1{      
         font-size:20px;     
@@ -83,10 +88,13 @@
     .banner .text-3{
         font-size:55%;   
     }
+   
     .home-enroll-word .btn-lg {
-       
-        margin-top: 16px;
+       padding: 2px 10px;
+      
     }
+
+
     .welcome .title-1 {    
         font-size: 19px;    
     }
@@ -98,7 +106,7 @@
     .welcome .text1 {
         font-size: 13px; 
     }
-    #student {
+    /* #student {
        
         min-height: 100vh;
     }
@@ -106,7 +114,7 @@
     #graduate {
 
         min-height: 100vh;
-    }
+    } */
     
     .main-menu .navbar-nav .login-btn {
         margin-top: 13px;
@@ -141,21 +149,14 @@
 
 
     .home-enroll-word .text {
-        font-size: 17px; 
+        font-size: 13px;
+        margin-top: 13px;
     }
-
    
-.home-enroll-word .btn-lg {
-    padding: 11px 54px;
-    color: #475677;
-    font-size: 6px;
-    font-family: 'rubik',sans-serif;
-    border-color: #475677;
-    border-radius: 50px;
-    margin-top: 7px;
-    
-}
-
+    .popular-courses-section .star {
+        padding-left: 21px;
+        font-size: 15px;
+    }
     .login-section .main-content .form-check {
         font-size: 15px;
     }
@@ -169,9 +170,14 @@
     .main-content .form-check .agree-access {
         font-size: 11px;
     }
-    .card-position .img {
-        margin-top: 0px;
-    }
-
+   
+    .form-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 11px;
+       margin-left: -135px;
+       width: 117%;
+    } 
+    
 }
     

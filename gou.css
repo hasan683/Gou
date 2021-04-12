@@ -783,19 +783,38 @@ margin-top: 10px !important;
     padding-bottom:2px;
  } */
 
+ /* .form-content1 {
+    width: 300px;
+    margin-left: -127px;
+    font-size: 14px;
+}
+.control-label {
+    padding-left: 60px;
+    margin-top: 10px !important;
+} */
 
-
- .d-flex{
+ .position{
 position:relative;
  }
- .fa-info-circle{
-     position: absolute;
-      top:8px;
-      margin-left: 450px;
-      
- }
- 
+ .fa-info-circle {
+    position: absolute;
+    margin-left: 544px;
+    bottom: 100px;
+}
  /* home -page */
+ 
+ .form-content {
+    width: 126%;
+     font-size: 14px;
+} 
+
+.form-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+    width: 50%;
+} 
+
 
  .banner{
     background-image: url(img/home.png);
@@ -954,7 +973,6 @@ border-radius: 25px;
     border-color: #475677;
     border-radius: 50px;
     margin-top: 7px;
-    margin-left: 364px;
 }
 
 .home-enroll-word .card-title{
