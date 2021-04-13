@@ -41,7 +41,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6 mt-4">
-                                        <div class="card certificates-card pb-3 vanilla-card">
+                                        <div class="card certificates-card pb-3">
                                             <div class="card-body pt-5">
                                                 <h5 class="card-title">05</h5>
                                                 <p class="card-text certificates">

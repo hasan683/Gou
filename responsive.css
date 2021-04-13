@@ -149,7 +149,7 @@
 
 
     .home-enroll-word .text {
-        font-size: 13px;
+        font-size: 12px;
         margin-top: 13px;
     }
    
@@ -179,5 +179,8 @@
        width: 117%;
     } 
     
+    .table-responsive {
+        font-size: 14px;
+    }
 }
     
