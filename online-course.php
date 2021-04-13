@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 
-<section class=" card-menu">
+<section class=" card-menu" style="background-color:light !important;">
     <div class="container mt-3">
         <div class="row">
             <div class="col-sm-4 online-course">
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="col-sm-4 online-course">
-                <div class="shadow card text-center mt-4 vanilla-card">
+                <div class="shadow card text-center mt-4">
                     <ul class="mt-3">
                         <li class="card-title">Online Course Name 3</li>
                         <li class="card-text">Duration:3 Months</li>
