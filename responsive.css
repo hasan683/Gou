@@ -67,8 +67,8 @@
     }
   
         .fa-info-circle {       
-            margin-left: 193px;
-            top: 406px;    
+            margin-left: 201px;
+            top: 403px;    
         }
 
         .btn-update {
@@ -144,7 +144,7 @@
         margin-top: 350px;
     }
     .card-position .card {
-        bottom: -329px;
+        bottom: -367px;
     }
 
 
@@ -180,7 +180,7 @@
     } 
     
     .table-responsive {
-        font-size: 14px;
+        font-size: 11px;
     }
 }
     
