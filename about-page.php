@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-12">
             <div class="shadow about-title">
-                <h3 class=" text-primary ">About Us</h3>
+                <p class="title">About Us</p>
                 <p class="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                     has
                     been the industry's standard dummy text ever since the 1500s,

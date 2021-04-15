@@ -44,6 +44,7 @@ li{
 .online-course .card {
 border-radius: 15px;
 padding-bottom: 8px;
+box-shadow: 0px 0px 13px rgb(0 0 0 / 10%);
 }
 /* 
 .card:hover{
@@ -541,6 +542,14 @@ display:none;
 }
 .about-section .about-title .lorem{
     font-size: 18px;  
+    font-family: 'Roboto',sans-serif;
+}
+
+.about-title .title{
+    font-size: 35px;  
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    color:#2B3E90;
 }
 
 .top-section .card{
@@ -585,6 +594,10 @@ border-radius: 10px;
 .sidebar .nav-item.active a {
     color: #fff !important;
 }
+
+/* .sidebar .card{
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 10%);
+} */
 /* welcome-page */
 
 /* .welcome-page .card .card-title{
@@ -798,7 +811,7 @@ position:relative;
  }
  .fa-info-circle {
     position: absolute;
-    margin-left: 544px;
+    margin-left: 642px;
     bottom: 100px;
 }
  /* home -page */
@@ -911,7 +924,7 @@ border-radius: 25px;
      color: #2B3E90;
      font-family: 'roboto',sans-serif;
      margin-bottom: 8px !important;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 45px;
 }
 
@@ -1022,15 +1035,6 @@ border-radius: 25px;
     border-radius: 50%;
     margin-top:20px;
  }
-
-
- .online-course .babu{
-
-    box-shadow: -2px -1px 20px #fff;
- }
-
-
-
 
 
 
