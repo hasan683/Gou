@@ -12,10 +12,10 @@
   <link rel="stylesheet" type="text/css" href="gou.css">
   <link rel="stylesheet" type="text/css" href="responsive.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-  <link rel="stylesheet" href="https://genesisbcscare.com/css/mk_style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://genesisbcscare.com/css/mk_style.css"> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title>Genesis Online University</title>
 
 </head>
@@ -58,7 +58,7 @@
       </div>
     </div>
   </nav>
-
+ 
 
 
   <section class="container ">
@@ -165,7 +165,7 @@
         </div>
 
       </div>
-  </section>
+  </section> 
   <footer>
     <div class="container top_footer py-3">
       <div class="lower_footer">
@@ -217,7 +217,10 @@
     });
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" /> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
 
 </body>
 

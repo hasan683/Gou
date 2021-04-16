@@ -11,32 +11,15 @@
     </p>
     <p class="text-3">It is a long established fact that a reader will be distracted by the there are many <br> cats and
       dog tuitorial series.</p>
-    <a href="register-page.php" class="btn text-white join-btn">Free Join Now</a>
+    <div>
+      <a href="register-page.php" class="btn text-white join-btn">Free Join Now</a>
+    </div>
   </div>
 </div>
-<!-- <div class="container">
-      <div class="card card-body bg-white shadow">
-       <ul>
-         <li class="list-inline-item">
-         <img class="" src="img/Group 1.png">
-         <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</span>
-         </li>
-       </ul>
-      </div>
-    </div>
 
-
-    <ul class="product-page-bg product-page-bg-top">      			
-			<li class="list-inline-item product-img">
-			<a href="">
-			<img src="img/Group 1.png">
-        	<span class="product-dairy-food">Dairy Foods</span>
-			<span class="product-dairy-food-icon-top">Lorem Ipsum is simply dummy text of the printing and typesetting industry.lorem, Ipsum has been</span></a></li><a href="">
-			</a>
-    </ul> -->
 <div class="container">
   <div class="card-position">
-    <div class="card card-body bg-white shadow">
+    <div class="card card-body  bg-white shadow">
       <div class="row">
         <div class="col-sm-4">
           <div class="row">
@@ -79,9 +62,6 @@
   </div>
 </div>
 
-
-
-
 <section class="popular-courses-section">
   <div class="container">
     <div class="row">
@@ -89,7 +69,7 @@
 
 
 
-
+      
       <div class="col-sm-4">
         <div class="card populer-card">
           <svg class="bd-placeholder-img card-img-top" width="100%" height="279" xmlns="" role="img"
@@ -98,11 +78,6 @@
             <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">
             </text>
           </svg>
-
-
-
-          <!-- <img src="" class="card-img-top" alt="..."> -->
-
           <div class="row mt-2">
             <div class="col-6 col-sm-6">
               <p class="text">Bio-stattistics</p>
@@ -138,11 +113,6 @@
             <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">
             </text>
           </svg>
-
-
-
-          <!-- <img src="" class="card-img-top" alt="..."> -->
-
           <div class="row mt-2">
             <div class="col-6 col-sm-6">
               <p class="text">Oncology</p>
@@ -177,11 +147,6 @@
             <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">
             </text>
           </svg>
-
-
-
-          <!-- <img src="" class="card-img-top" alt="..."> -->
-
           <div class="row mt-2">
             <div class="col-6 col-sm-6">
               <p class="text">ENT</p>
@@ -208,7 +173,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
@@ -245,89 +209,67 @@
         <button type="button" class="btn btn-lg ">View More</button>
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="card pr-4 shadow-sm mt-4">
-          <div class="card-body">
-            <div class="text-center img">
-              <img src="img/path 1096.png">
-              <img src="img/path 1096.png">
-            </div>
-            <p class="card-title text-center">it has survived not only five centuries.but also the leap into
-              electronic
-              tyepsetting.remaining essentially unchanged.it was popularised in the 1960s with the race</p>
-            <div class="img-home text-center">
-              <img src="img/mask.png">
-            </div>
-            <p class="text-center text">Dr Abdullah</p>
-            <p class="text-center title">MBBS,BCS</p>
-          </div>
-        </div>
-</div>
-        <div class="col-sm-6">
-          <div class="card  shadow-sm mt-4">
-            <div class="card-body">
-              <div class="text-center">
-                <img src="img/path 1096.png">
-                <img src="img/path 1096.png">
-              </div>
-              <p class="card-title text-center">it has survived not only five centuries.but also the leap into
-                electronic
-                tyepsetting.remaining essentially unchanged.it was popularised in the 1960s with the race</p>
-              <div class="img-home text-center">
-                <img src="img/mask.png">
-              </div>
-              <p class="text-center text">Dr Abdullah</p>
-              <p class="text-center title">MBBS,BCS</p>
-            </div>
-          </div>
-
-        </div>
-
-      
-    </div>
+  </div>
 </section>
-<!-- <div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="card pr-4">
-        <div class="card-body">
-          <div class="text-center text-muted">
-            <img src="img/path 1096.png">
-            <img src="img/path 1096.png">
-          </div>
-          <p class="card-title text-center mt-2">it has survived not only five centuries.but also the leap into
-            electronic
-            tyepsetting.remaining essentially unchanged.it was popularised in the 1960s with the race</p>
-          <div class="img-home text-center">
-            <img src="img/mask.png">
-          </div>
-          <h5 class="text-center">Dr Abdullah</h5>
-          <p class="text-center">MBBS,BCS</p>
+
+<div class="container">
+  <div class="all res">
+    <div class="col-4">
+    <div class="card pr-4 shadow-sm mt-4 cl-1">
+      <div class="card-body">
+        <div class="text-center img">
+          <img src="img/path 1096.png">
+          <img src="img/path 1096.png">
         </div>
-      </div>
-    </div>
-    </section>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body ml-4">
-          <div class="text-center">
-            <img src="img/path 1096.png">
-            <img src="img/path 1096.png">
-          </div>
-          <p class="card-title text-center mt-2">it has survived not only five centuries.but also the leap into
-            electronic
-            tyepsetting.remaining essentially unchanged.it was popularised in the 1960s with the race</p>
-          <div class="img-home text-center">
-            <img src="img/mask.png">
-          </div>
-          <h5 class="text-center">Dr Abdullah</h5>
-          <p class="text-center">MBBS,BCS</p>
+        <p class="card-title text-center">it has survived not only five centuries.but also the leap into
+          electronic
+          tyepsetting.remaining essentially unchanged.it was popularised in the 1960s with the race</p>
+        <div class="img-home text-center">
+          <img src="img/mask.png">
         </div>
+        <p class="text-center text">Dr Abdullah</p>
+        <p class="text-center title">MBBS,BCS</p>
       </div>
     </div>
   </div>
-</div> -->
+  <div class="col-4">
+    <div class="card  shadow-sm mt-4 cl-1">
+      <div class="card-body">
+        <div class="text-center">
+          <img src="img/path 1096.png">
+          <img src="img/path 1096.png">
+        </div>
+        <p class="card-title text-center">it has survived not only five centuries.but also the leap into
+          electronic
+          tyepsetting.remaining essentially unchanged.it was popularised in the 1960s with the race</p>
+        <div class="img-home text-center">
+          <img src="img/mask.png">
+        </div>
+        <p class="text-center text">Dr Abdullah</p>
+        <p class="text-center title">MBBS,BCS</p>
+      </div>
+    </div>
+    </div>
+    <div class="col-4">
+    <div class="card pr-4 shadow-sm mt-4 cl-1">
+      <div class="card-body">
+        <div class="text-center img">
+          <img src="img/path 1096.png">
+          <img src="img/path 1096.png">
+        </div>
+        <p class="card-title text-center">it has survived not only five centuries.but also the leap into
+          electronic
+          tyepsetting.remaining essentially unchanged.it was popularised in the 1960s with the race</p>
+        <div class="img-home text-center">
+          <img src="img/mask.png">
+        </div>
+        <p class="text-center text">Dr Abdullah</p>
+        <p class="text-center title">MBBS,BCS</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
 
 
 
