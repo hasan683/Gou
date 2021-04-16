@@ -1,21 +1,19 @@
-
 <!doctype html>
 <html lang="en">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="gou.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" href="https://genesisbcscare.com/css/mk_style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="slick.css">
     <title>Genesis Online University</title>
 
 </head>
@@ -46,13 +44,13 @@
                         <a class="nav-link" href="about-page.php">About</a>
                     </li>
                     <li class="hot-line ms-lg-auto">
-                       <i class="fas fa-headset pe-3"></i>
+                        <i class="fas fa-headset pe-3"></i>
                         <span class="number">Hot-Line:01404432536</span>
                     </li>
                     <li class="">
-                        <a href="profile.php" class="btn login-btn">Login</a>
-                        <a href="login.php" class="btn  sign-up-btn">Sign
-                            up</a>
+                        <a href="profile.php" class="btn profile-btn">Profile</a>
+                        <a href="login.php" class="btn btn-outline-warning sign-out-btn">Sign
+                            Out</a>
                     </li>
                 </ul>
 
@@ -60,41 +58,45 @@
         </div>
     </nav>
 
+    <div class="container">
+        <div class="ar test">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+        </div>
+    </div>
 
-    <section class="login-section pt-4">
-            <div class="row mx-0 justify-content-center">
-                <div class="col-md-9 card-back shadow">
-                    <p class="login-head"><u>Login</u><span class="Register-header ms-3"><u>Register</u></span></p>
-                    <div class="main-content">
-                        <form>
-                            <div class="mb-3">
-                                <input type="text" class="form-control email" placeholder="Email or Phone"
-                                    id="exampleInputnumber1">
-                            </div>
+    <div class="container">
+    <div class="ab test-1">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+            <img class="cl-1" src="img/Mask2.png" alt="">
+    </div>
 
-                            <div class="mb-3">
-                                <input type="password" class="form-control password" placeholder="Password"
-                                    id="exampleInputPassword1">
-                                <span class="icon-eye"><i class="far fa-eye"></i></span>
-                                <p class="text-end"><u>Forgot Password?</u></p>
-                            </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1"><span class="ms-1">Remember
-                                        me</label>
-                            </div>
-                            <div class="text-center access-btn">
-                                <a href="index-page.php" button type="submit" class="btn btn-login">Login</a>
-                                <p class="mt-3 account">Don't have an account?</p>
-                                <a href="register-page.php" button type="button" class="btn  register-btn">Register
-                                    Now</a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer >
+    </div>
+    <footer>
         <div class="container top_footer py-3">
             <div class="lower_footer">
                 <div>
@@ -114,40 +116,24 @@
             </div>
         </div>
     </footer>
-    
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".vanilla-card"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.0.0/jquery.min.js"></script>
 
-  <script>
-  
-    $(document).ready(function () {
-      $("#university").click(function () {
-        $("#student").show();
-        $("#graduate").hide();
-      });
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="slick.min.js"></script>
+    <script type="text/javascript" src="my.js"></script>
+</body>
 
-      $("#medical").click(function () {
-        $("#graduate").show();
-        $("#student").hide();
-      });
-      $(".select2").select2({
-        allowClear: true,
-        placeholder: "Select Institute",
-        tags: true,
-        tokenSeparators: [',']
-      });
-
-      $("#institute_name").on("change", function () {
-        console.log($(this).val());
-      })
-
-
-    });
-
-    $('#admission_year').datepicker({
-      uiLibrary: 'bootstrap4'
-    });
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
-  </body>
 </html>
- 
