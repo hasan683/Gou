@@ -182,5 +182,44 @@
     .table-responsive {
         font-size: 11px;
     }
+   .dashboard_single_course {
+    display: block;
+    }
+
+    .dashboard_instructor {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .dashboard_course_title {
+        font-size: 17px;
+    } 
+
+    .head_right .price-box {
+        font-size: 15px;    
+    }
+
+    .dashboard_single_course_head {
+        display: block;
+      
+    }
+
+    .dashboard_single_course_caption {
+         padding-left: 0px;
+    }
+
+    .dashboard_single_course_des p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .dashboard_single_course_progress_1{
+        margin-left: 20px;
+    }
+
+    .related-course p{
+        font-size: 25px;
+        margin-left: 5px;
+    }
 }
     

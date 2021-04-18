@@ -89,13 +89,11 @@
               <div class="form-group form-content">
                 <label class="control-label col-sm-4 institute-text " for="institute_name">Institute Name:</label>
                 <select class="form-select" id="institute_name" name="medical_college_id" required>
-
                   <option selected>select your university</option>
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
                 </select>
-
               </div>
 
               <div class="form-group form-content">
