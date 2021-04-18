@@ -8,7 +8,9 @@
                     <ul class="mt-3">
                         <li class="card-title">Online Course Name 1</li>
                         <li class="card-text">Duration:3 Months</li>
-                        <li class="card-text">Course Fee:500 tk</li>
+                        <li class="card-text">Fee: 500 tk</li>
+                        <li class="card-text">Starting: 2021-02-21</li>
+                        <li class="card-text">Deadline: 2021-02-20</li>
                         <a href="#" button type="button" class="btn card-btn">Purchase Now</a>
                     </ul>
                 </div>
@@ -18,7 +20,9 @@
                     <ul class="mt-3">
                         <li class="card-title">Online Course Name 2</li>
                         <li class="card-text">Duration:3 Months</li>
-                        <li class="card-text">Course Fee:500 tk</li>
+                        <li class="card-text">Fee: 500 tk</li>
+                        <li class="card-text">Starting: 2021-02-21</li>
+                        <li class="card-text">Deadline: 2021-02-20</li>
                         <a href="#" button type="button" class="btn card-btn">Purchase Now</a>
                     </ul>
                 </div>
@@ -28,7 +32,9 @@
                     <ul class="mt-3">
                         <li class="card-title">Online Course Name 3</li>
                         <li class="card-text">Duration:3 Months</li>
-                        <li class="card-text">Course Fee:500 tk</li>
+                        <li class="card-text">Fee: 500 tk</li>
+                        <li class="card-text">Starting: 2021-02-21</li>
+                        <li class="card-text">Deadline: 2021-02-20</li>
                         <a href="#" button type="button" class="btn card-btn">Purchase Now</a>
                     </ul>
                 </div>
@@ -40,7 +46,9 @@
                     <ul class="mt-3">
                         <li class="card-title">Online Course Name 1</li>
                         <li class="card-text">Duration:3 Months</li>
-                        <li class="card-text">Course Fee:500 tk</li>
+                        <li class="card-text">Fee: 500 tk</li>
+                        <li class="card-text">Starting: 2021-02-21</li>
+                        <li class="card-text">Deadline: 2021-02-20</li>
                         <a href="#" button type="button" class="btn card-btn">Purchase Now</a>
                     </ul>
                 </div>
@@ -50,7 +58,9 @@
                     <ul class="mt-3">
                         <li class="card-title">Online Course Name 2</li>
                         <li class="card-text">Duration:3 Months</li>
-                        <li class="card-text">Course Fee:500 tk</li>
+                        <li class="card-text">Fee: 500 tk</li>
+                        <li class="card-text">Starting: 2021-02-21</li>
+                        <li class="card-text">Deadline: 2021-02-20</li>
                         <a href="#" button type="button" class="btn card-btn">Purchase Now</a>
                     </ul>
                 </div>
@@ -60,7 +70,9 @@
                     <ul class="mt-3">
                         <li class="card-title">Online Course Name 3</li>
                         <li class="card-text">Duration:3 Months</li>
-                        <li class="card-text">Course Fee:500 tk</li>
+                        < < class="card-text">Fee: 500 tk</>
+                        <li class="card-text">Starting: 2021-02-21</li>
+                        <li class="card-text">Deadline: 2021-02-20</li>
                         <a href="#" button type="button" class="btn card-btn">Purchase Now</a>
                     </ul>
                 </div>
