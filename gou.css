@@ -1037,7 +1037,254 @@ border-radius: 25px;
     margin-top:20px;
  }
 
+ .log_wrap {
+    background: #ffffff;
+    padding: 2rem 2rem;
+    border-radius: 0.6rem;
+    box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 9%);
+}
+
+.log_wrap h4, .log_wrap h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 35px;
+}
+
+.log_wrap h1{
+    color: #2D3954;
+    font-weight: 600;
+}
+
+.log_wrap .form-control {
+    background: #f4f5f7;
+}
+
+
+.btn.pop-login {
+    height: 56px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.form-group .btn-md{
+    background-color: #da0b4e;
+    background: #da0b4e;
+    margin-top:15px;
+}
+
+.otp-wrap {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 0.6rem;
+    box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 9%);
+}
+.otp-wrap h4 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 35px;
+}
+
+.otp-content {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.otp-content p {
+    color: #26292E;
+    font-family: "Noto Sans Bengali";
+}
+
+.otp-input {
+    padding: 0 30px;
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+}
 
 
 
 
+
+.otp-link {
+    justify-content: space-between;
+    margin: 30px auto;
+    display: flex;
+}
+
+.otp-box {
+    width: 23%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: 1px solid #C3CED8;
+    /* border-radius: 4px; */
+    background: #fff;
+}
+
+.otp-box::before {
+    content: "";
+    display: block;
+    background: #da0b4e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 600ms cubic-bezier(.31, .36, .21, .75);
+    transform: translate3d(-140%, 0, 0) skewX(
+25deg
+);
+}
+    
+.otp-input .otp-box input {
+    border: none;
+    background: none;
+    /* padding: 15px 10px; */
+}
+
+.otp-input .inputBox {
+    text-align: center;
+}
+
+.form-control.inputBox {
+    font-size: 20px;
+}
+
+.otp-link .btn-theme-2{
+    width: 100%;
+    background-color: #252c41;
+    background: #252c41;
+    border-color: #252c41;
+}
+
+.otp-link .btn {
+    width: 100%;
+}
+
+.otp-link .btn {
+    width: 48%;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Noto Sans Bengali";
+}
+
+.btn-theme-2 {
+    background: #3151B7;
+    border-color: #3151B7;
+    color: #ffffff;
+    transition: all ease 0.4s;
+}
+
+.btn-theme{
+    background-color: #da0b4e;
+    background: #da0b4e;
+
+}
+
+.otp-link .btn {
+    width: 100%;
+}
+
+.submit-btn {
+    width: 100%;
+    font-family: "Noto Sans Bengali";
+}
+
+
+.dashboard_single_course {
+    display: flex;
+     align-items: center; 
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #dadfea;
+    box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 9%);
+    border-radius: 15px;
+}
+
+.dashboard_single_course_thumb2 {
+    width: 280px;
+    height: 220px;
+    border-radius: 0.3rem;
+    transition: all ease 0.4s;
+}
+
+.dashboard_single_course_thumb2 img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.dashboard_single_course_caption {
+    width: 100%;
+    flex: 1;
+    padding-left: 20px;
+}
+
+.dashboard_single_course_head {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.dashboard_single_course_head_flex {
+    flex: 1;
+}
+
+.dashboard_single_course_des p{
+    margin-top: 1rem;
+    font-family: 'Arial ', sans-serif;
+    font-size: 17px; 
+    line-height: 24px;
+    overflow: hidden;
+}
+
+
+.dashboard_single_course_progress {
+    display: flex;
+    align-items: center;
+   
+}
+
+.head_right .price-box{
+    color: #FFB013;
+    font-size: 20px;
+    font-family: 'Roboto ', sans-serif;
+    margin-right: 31px;
+}
+
+.dashboard_instructor{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto ', sans-serif;
+    color:#2B3E90;
+}
+
+.dashboard_course_title{
+    color:#FFB013;
+    font-size: 20px;
+    font-family: 'Roboto ', sans-serif;
+    margin-top: 2px;
+}
+
+.dashboard_single_course_progress_1{
+    background-color: #FFB013;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding:  0px 32px;
+    font-size: 17px;
+    font-family: 'Roboto ', sans-serif;
+}
+
+.related-course p{
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Roboto ', sans-serif;
+    color: #2B3E90;
+    margin-top: 20px;
+    margin-left: 8px;
+}
