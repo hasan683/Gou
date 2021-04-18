@@ -1,6 +1,6 @@
 $('.responsive').slick({
   centerMode: true,
-  centerPadding: '200px',
+  centerPadding: '60px',
   autoplay: true,
   autoplaySpeed: 1000,
   slidesToShow: 2,
@@ -37,9 +37,10 @@ $('.responsive').slick({
       
   $('.res').slick({
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
     slidesToShow: 2,
-    slidesToScroll: 2
+    slidesToScroll: 1
+    
   });
   
   var filtered = false;
@@ -58,9 +59,9 @@ $('.responsive').slick({
       
   $('.respon').slick({
     
-    speed: 300,
+    speed: 1000,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     responsive: [
       {
         breakpoint: 1024,
