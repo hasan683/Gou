@@ -78,7 +78,6 @@
             <input type="checkbox" class="form-check-input" id="medical" name="defaultExampleRadios">
             <label class="form-check-label" for="exampleCheck1">Medical graduate
           </div>
-
         </div>
 
 
