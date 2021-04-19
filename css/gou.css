@@ -835,13 +835,7 @@ position:relative;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner {
-    background-image: url(img/home.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
+
 .banner .text-1{
     font-family: 'poppins',sans-serif;
     font-size:40px;
