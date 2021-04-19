@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 
 
-<div class="banner">
+<div class="banner" style="background-image: url('img/home.png');">
   <div class="container">
     <p class="text-1">
       Learn Something New
