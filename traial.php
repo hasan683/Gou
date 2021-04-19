@@ -3,16 +3,17 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/gou.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-    <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
     <title>Genesis Online University</title>
 
 </head>
@@ -43,7 +44,7 @@
                         <a class="nav-link" href="about-page.php">About</a>
                     </li>
                     <li class="hot-line ms-lg-auto">
-                       <i class="fas fa-headset pe-3"></i>
+                        <i class="fas fa-headset pe-3"></i>
                         <span class="number">Hot-Line:01404432536</span>
                     </li>
                     <li class="">
@@ -57,41 +58,58 @@
         </div>
     </nav>
 
-
-        <section class="login-section pt-4">
-            <div class="row mx-0 justify-content-center">
-                <div class="col-md-9 card-back shadow">
-                    <p class="login-head"><u>Login</u><span class="Register-header ms-3"><u>Register</u></span></p>
-                    <div class="main-content">
-                        <form>
-                            <div class="mb-3">
-                                <input type="text" class="form-control email" placeholder="Email or Phone"
-                                    id="exampleInputnumber1">
-                            </div>
-
-                            <div class="mb-3">
-                                <input type="password" class="form-control password" placeholder="Password"
-                                    id="exampleInputPassword1">
-                                <span class="icon-eye"><i class="far fa-eye"></i></span>
-                                <p class="text-end"><u>Forgot Password?</u></p>
-                            </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1"><span class="ms-1">Remember
-                                        me</label>
-                            </div>
-                            <div class="text-center access-btn">
-                                <a href="index-page.php" button type="submit" class="btn btn-login">Login</a>
-                                <p class="mt-3 account">Don't have an account?</p>
-                                <a href="register-page.php" button type="button" class="btn  register-btn">Register
-                                    Now</a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+    <div class="main">
+        <div class="card">
+            <div class="card-title">
+                <h3><i class="fa fa-user-circle-o" aria hidden="true"></i>User <span
+                        id="action_title">Login</span></span></h3>
             </div>
-        </section> 
- <footer >
+            <div class="card-body">
+                <div class="card-body-top">
+                    <button id="login" class="btn" onclick="Login_btn()" required>Login</button>
+                    <button id="register" class="btn" onclick="register_btn()" required>Register</button>
+                    <div id="bottom_line"></div>
+                </div>
+                <div class="card-body-bottom">
+
+                    <form id="login-form">
+                        <input type="text" class="form-control email  all-access" placeholder="Email or Phone"
+                            id="exampleInputnumber1"><br>
+
+                        <input type="password" class="form-control password  all-access" placeholder="Password"
+                            id="exampleInputPassword1">
+                        <span class="icon-eye"><i class="far fa-eye"></i></span>
+                        <p class="text-end"><u>Forgot Password?</u></p>
+                    </form>
+
+
+                    <form id="register-form">
+                        <input type="text" class="form-control all-access" placeholder="Full Name"><br>
+                        <input type="number" class="form-control all-access" placeholder="Phone"
+                            id="exampleInputnumber1"><br>
+                        <input type="email" class="form-control all-access" placeholder="Email"
+                            id="exampleInputemail1"><br>
+                        <input type="password" class="form-control all-access" placeholder="Password"
+                            id="exampleInputPassword1">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1"><br>
+                        <label class="form-check-label" for="exampleCheck1"><span class="agree-access">I agree to the
+                                <strong class="text-warning"> Terms of Use</strong> and
+                                <strong class="text-warning"> Privacy Policy</strong></span>
+                        </label>
+                    </form>
+                     <div class="clear"></div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+
+
+    <footer>
         <div class="container top_footer py-3">
             <div class="lower_footer">
                 <div>
@@ -112,13 +130,41 @@
         </div>
     </footer>
 
+<script type="text/javascript">
+var a = document.getElementedById('login-form');
+var b = document.getElementedById('register-form');
+var c = document.getElementedById('bottom_line');
+var d = document.getElementedById('login');
+var e = document.getElementedById('register');
+var span = document.getElementedById('action_title');
+
+function register_btn(){
+a.style.left="-450px";
+b.style.left="30px";
+c.style.left="215px";  
+d.style.color="red";  
+e.style.color="red"; 
+span.textContent="register";
+}
+
+function login_btn(){
+a.style.left="30px";
+b.style.left="450px";
+c.style.left="30px";  
+d.style.color="red";  
+e.style.color="red"; 
+span.textContent="login";
+}
+
+</script>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
     </script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.0.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.0.0/jquery.min.js"></script>
 </body>
 
 </html>
