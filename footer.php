@@ -18,7 +18,7 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
 <script type="text/javascript">
 	VanillaTilt.init(document.querySelectorAll(".vanilla-card"), {
 		max: 25,
@@ -31,11 +31,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
     </script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.0.0/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.0.0/js/jquery.min.js"></script>
       
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="slick.min.js"></script>
-    <script type="text/javascript" src="my.js"></script>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/my.js"></script>
 </body>
 
 </html>
