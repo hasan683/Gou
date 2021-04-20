@@ -395,12 +395,12 @@ margin-top: 3px;
 width: 396px;
 }
 
-.login-section .main-content{
+.main-content{
 padding-right: 12px;
 padding-left: 12px;
 }
 
-.login-section .main-content input {
+.main-content input {
    padding-top: 2px;
    padding-bottom: 2px;
 }
@@ -421,25 +421,25 @@ padding-left: 12px;
   font-family: 'Ubuntu', sans-serif;
 }
 
-.login-section .main-content .email{
+.main-content .email{
     height:42px;
     font-size: 20px;
     opacity:45%;
 } 
 
-.login-section .main-content .password{
+.main-content .password{
     height:42px;
     font-size: 20px;
     opacity:45%;
 }
 
-.login-section .main-content .text-end {
+.main-content .text-end {
     font-size: 17px;
     margin-top: 5px;
     font-family: 'Roboto',sans-serif;
 }
 
-.login-section .main-content .form-check{
+.main-content .form-check{
     font-size: 25px;
     font-family: 'Ubuntu',sans-serif;
     color: #545454;
@@ -475,7 +475,7 @@ font-family: 'Ubuntu', sans-serif;
     padding-bottom:0px;
 }
 
-.register-section .main-content{
+.main-content{
 padding-left:12px;
 padding-right:12px;
 }
@@ -499,23 +499,23 @@ padding-right:12px;
 display:none;
 }
 
-.register-section .main-content .all-access{
+.main-content .all-access{
     height:42px;
     font-size: 20px;
     opacity:45%;
     padding-left: 32px;
 }
 
-.main-content .form-check{
+/* .main-content .form-check{
     font-size:14px;
     font-family: 'Ubuntu',sans-serif;
-}
+} */
 
 .main-content .form-check .agree-access {
     padding-left: 2px;
     font-size: 15px;
 }
-.register-section .access-btn .reg-btn{
+.access-btn .reg-btn{
     background-color:#2B3E90;
     color:#fff;
     font-size:22px;
@@ -1283,153 +1283,89 @@ border-radius: 25px;
     margin-left: 8px;
 }
 
-/* 
-.main{
-    width:100%;
-    height:100v;
-    background-color:red ;
-    position: relative;
-}
 
-.card{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%-50%);
-    margin-top: 20px;
+.box{
+    width:396px;
+    height: 596px;
+    margin-top:20px ;
+    position: relative;
     overflow: hidden;
 }
-
-.card-title > h3{
-    color:#36A9E1;
-    font-size: 20px;
-    padding: 20px 0 px;;
-}
-
-#action_title{
-    color:#662483;
-    transition: 0.5s all ease;
-}
-
-.card-body{
-    width:100%;
-    background-color:palegreen;
-    height: 350px;
-    padding: 30px 0px;
-    border-radius: 8px;
-}
-
-.card-body-top{
-    width:400px;
-    position: relative;
-}
-
-.btn{
-    width:180px;
-    border:none;
-    background: transparent;
-    color:tomato;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    padding: 20px 0px;
-}
-
-#login{
-    color: teal;
-    transition: 0.5s all ease;
-    outline:none;
-}
-
-#register{
-    color: tomato;
-    outline:none;
-}
-
-#bottom-line{
+.login{
     position: absolute;
-    width: 120px;
-    height: 2px;
-    left: 30px;
-    bottom: -1px;
-    background: violet;
-    transition: 0.5s all ease;
+    bottom: 0;
+    left:0 ;
+ 
+    width: 100%;
+    height: 400px;
+    padding: 0px 20px;
+    transition:0.5s ;
 }
 
-.card-body-bottom{
-width:100%;
-position: relative;
-}
-
-.clear{
-    clear:both;
-}
-
-#login-form{
-position: absolute;
-left:30px;
-top:25px;
-transition: 0.5s all ease;
-}
-
-#register-form{
+.signup{
     position: absolute;
-    left:450px;
-    top:25px;
-    text-align: center;
-    transition: 0.5s all ease;
-    }
-
-.all-access{
-    border: none;
-    background: transparent;
-    color: white;
-    border-bottom: 1px solid aqua;
+    bottom: 0;
+    left:101%;
+   
+    width: 100%;
+    height: 400px;
+    padding: 0px 20px;
+    transition:0.5s ;
 }
 
-
-#login-registration .login-registration__form {
-    background: #FFFFFF;
-    width: 50%;
-    padding: 35px 20px;
-    min-height: 600px;
-    border-radius: 0 6px 6px 0;
-    box-shadow: 0 0 10px 0 rgb(0 0 0 / 5%);
+.input-group{
+    margin-top: 10px;
 }
 
-#login-registration .login-registration__form .login-registration__form--heading {
-    font-size: 120%;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: flex;
-    -webkit-justify-content: center;
-    -moz-box-pack: center;
-    justify-content: center;
+.input-group span{
+    color:grey
 }
 
-#login-registration .login-registration__form .login-registration__form--heading p.active {
-    color: #2874F0;
-    border-color: #2874F0;
+.input-group .inp{
+width: 100%;
+padding: 10px 15px;
+border-radius: 100px;
+border: 1px solid red;
+margin-top: 5px;
 }
 
-#login-registration .login-registration__form .login-registration__form--heading p {
-    cursor: pointer;
-    color: #acafb0;
-    padding: 0 20px;
-    text-transform: capitalize;
-    border-bottom: 2px solid #EBEDEE;
-    padding-bottom: 6px;
+.toggle-btn{
+    -webkit-appearance: none;
+    width:150px;
+    height: 40px;
+    border: 1px solid grey;
+    position:absolute ;
+    top:30px;
+    left:calc(50% - 75px);
+    border-radius: 100px;
+    
 }
 
-#login-registration .login-registration__form .registration-form.show, #login-registration .login-registration__form .login-form.show {
-    display: block;
-    -webkit-animation: displayEffect 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    animation: displayEffect 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+.toggle-btn:before{
+    content:'login';
+    color:#fff;
+    font-weight: bolder;
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:100%;
+    background: linear-gradient(30deg,red,blue);
+    border-radius: 100px;
+    display: grid;
+    place-items:center ;
+    transition:0.5s ;
 }
 
-#login-registration .login-registration__form .registration-form, #login-registration .login-registration__form .login-form {
-    height: 740px;
-    display: none;
-    -webkit-animation: displayEffect 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    animation: displayEffect 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-} */
+.toggle-btn:checked:before{
+    content: 'signup';
+    left:50%;
+}
+
+.toggle-btn:checked + .login{
+    left:-101%;
+}
+
+.toggle-btn:checked + .login +.signup{
+    left:0%;
+}

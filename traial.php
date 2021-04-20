@@ -57,18 +57,13 @@
             </div>
         </div>
     </nav>
-
-    <div class="main">
-        <div class="card">
-            <div class="card-title">
-                <h3><i class="fa fa-user-circle-o" aria hidden="true"></i>User <span
-                        id="action_title">Login</span></span></h3>
-            </div>
+<div class="container">
+    <div class="main mt-5 ">
+        <div class="card" style="width:396px;">
             <div class="card-body">
                 <div class="card-body-top">
                     <button id="login" class="btn" onclick="Login_btn()" required>Login</button>
                     <button id="register" class="btn" onclick="register_btn()" required>Register</button>
-                    <div id="bottom_line"></div>
                 </div>
                 <div class="card-body-bottom">
 
@@ -97,7 +92,7 @@
                                 <strong class="text-warning"> Privacy Policy</strong></span>
                         </label>
                     </form>
-                     <div class="clear"></div>
+                    <div class="clear"></div>
                 </div>
 
             </div>
@@ -105,8 +100,8 @@
 
 
     </div>
+    
     </div>
-
 
 
     <footer>
@@ -130,34 +125,32 @@
         </div>
     </footer>
 
-<script type="text/javascript">
-var a = document.getElementedById('login-form');
-var b = document.getElementedById('register-form');
-var c = document.getElementedById('bottom_line');
-var d = document.getElementedById('login');
-var e = document.getElementedById('register');
-var span = document.getElementedById('action_title');
+    <script type="text/javascript">
+        var a = document.getElementedById('login-form');
+        var b = document.getElementedById('register-form');
+        var c = document.getElementedById('bottom_line');
+        var d = document.getElementedById('login');
+        var e = document.getElementedById('register');
+        var span = document.getElementedById('action_title');
 
-function register_btn(){
-a.style.left="-450px";
-b.style.left="30px";
-c.style.left="215px";  
-d.style.color="red";  
-e.style.color="red"; 
-span.textContent="register";
-}
+        function register_btn() {
+            a.style.left = "-450px";
+            b.style.left = "30px";
+            c.style.left = "215px";
+            d.style.color = "red";
+            e.style.color = "red";
+            span.textContent = "register";
+        }
 
-function login_btn(){
-a.style.left="30px";
-b.style.left="450px";
-c.style.left="30px";  
-d.style.color="red";  
-e.style.color="red"; 
-span.textContent="login";
-}
-
-</script>
-
+        function login_btn() {
+            a.style.left = "30px";
+            b.style.left = "450px";
+            c.style.left = "30px";
+            d.style.color = "red";
+            e.style.color = "red";
+            span.textContent = "login";
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
     </script>
@@ -165,6 +158,7 @@ span.textContent="login";
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.0.0/jquery.min.js"></script>
+
 </body>
 
 </html>
