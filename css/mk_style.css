@@ -76,7 +76,7 @@
     display: none;
     margin-left: 24%;
     margin-right: -26%;
-    min-height: 100vh;
+    min-height: 25vh;
 }
 .form-section {
     display: flex;
@@ -96,6 +96,16 @@
 
 .control-label {
     margin-top: 11px !important;
+}
+
+.update-btn{
+    background-color: #0F77B7;
+    padding: 2px 30px;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    margin-left: 12px;
+    margin-top: 15px;
 }
 
 .select2 {
@@ -152,7 +162,7 @@
     display: none;
     margin-left: 24%;
     margin-right: -26%;
-    min-height: 100vh;
+    min-height: 20vh;
 }
 
 .form-section {
