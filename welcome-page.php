@@ -71,12 +71,12 @@
                     </div>
                     <div class="checkbox">
                         <div class="custom-control custom-radio">
-                            <input type="checkbox" class="custom-checkbox-input" id="university"
+                            <input type="radio" class="custom-checkbox-input" id="university"
                                 name="defaultExampleRadios">
                             <label class="form-check-label" for="defaultUnchecked">Medical Student</label>
                         </div>
                         <div class="custom-control custom-radio cb2">
-                            <input type="checkbox" class="custom-checkbox-input" id="medical" name="defaultExampleRadios">
+                            <input type="radio" class="custom-checkbox-input" id="medical" name="defaultExampleRadios">
                             <label class="form-check-label" for="defaultChecked">Medical graduate</label>
                         </div>
 
@@ -115,6 +115,7 @@
                             <option value="Permanent">Permanent</option>
                         </select>
                     </div>
+    
 
                     <div class="form-group Last-child">
                         <div class="col-sm-offset-2 col-sm-10">
@@ -211,6 +212,7 @@
         });
     </script>
 
+</script>
 </body>
 
 </html>
