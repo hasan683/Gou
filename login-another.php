@@ -24,10 +24,10 @@
                     <from>
                         <div class="inputs">
                             <div class="input">
-                                <input type="text" placeholder="Email or Phone">
+                                <input type="email" class="form-control" placeholder="Email or Phone">
                             </div>
                             <div class="input">
-                                <input type="password" placeholder="Password">
+                                <input type="password" class="form-control" placeholder="Password">
                             </div>
                             <a href="">Forgot Password</a>
                             <lebel class="checkbox">
@@ -37,6 +37,30 @@
                         <button>Login</button>
                         <p>Don't have an account?</p>
                         <button>Register Now</button>
+                    </from>
+                    <from>
+                        <div class="inputs">
+                            <div class="input">
+                                <input type="text" class="form-control" placeholder="Full Name">
+                            </div>
+                            <div class="input">
+                                <input type="number" class="form-control" placeholder="Phone">
+                            </div>
+                            <div class="input">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="input">
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1"><span class="agree-access">I agree to the
+                                <strong class="text-warning"> Terms of Use</strong> and
+                                <strong class="text-warning"> Privacy Policy</strong></span>
+                            </label>
+                        </div>
+                        <button>Register</button>
+                        <p>Already have an account?</p>
+                        <button>Login Now</button>
                     </from>
                 </div>
             </div>
